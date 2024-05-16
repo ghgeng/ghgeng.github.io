@@ -1,0 +1,885 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>记录 | ghgeng-blogs</title>
+    <meta name="generator" content="VuePress 1.9.7">
+    <link rel="icon" href="/logo.jpg">
+    <meta name="description" content="经验心得及记录开发过程中遇到问题">
+    <meta name="keywords" content="ghgeng,vuepress,自建博客">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+    <meta name="robots" content="all">
+    <meta name="author" content="ghgeng">
+    
+    <link rel="preload" href="/assets/css/0.styles.ac68252c.css" as="style"><link rel="preload" href="/assets/js/app.7c753d48.js" as="script"><link rel="preload" href="/assets/js/2.2fd9064d.js" as="script"><link rel="preload" href="/assets/js/12.62cb7793.js" as="script"><link rel="preload" href="/assets/js/57.fb0d31ad.js" as="script"><link rel="preload" href="/assets/js/33.2a06cdab.js" as="script"><link rel="prefetch" href="/assets/js/10.b76c7977.js"><link rel="prefetch" href="/assets/js/100.78a521ff.js"><link rel="prefetch" href="/assets/js/101.091df711.js"><link rel="prefetch" href="/assets/js/102.93e5313c.js"><link rel="prefetch" href="/assets/js/103.1acb42af.js"><link rel="prefetch" href="/assets/js/104.187f3be0.js"><link rel="prefetch" href="/assets/js/105.5514df34.js"><link rel="prefetch" href="/assets/js/106.3b161741.js"><link rel="prefetch" href="/assets/js/107.47538090.js"><link rel="prefetch" href="/assets/js/108.e2e2e634.js"><link rel="prefetch" href="/assets/js/109.00cc12f1.js"><link rel="prefetch" href="/assets/js/11.34da966a.js"><link rel="prefetch" href="/assets/js/110.dcbc04d5.js"><link rel="prefetch" href="/assets/js/111.4e2823d2.js"><link rel="prefetch" href="/assets/js/112.1d35c7bf.js"><link rel="prefetch" href="/assets/js/113.22b17f1e.js"><link rel="prefetch" href="/assets/js/114.96b101c6.js"><link rel="prefetch" href="/assets/js/115.3df414d3.js"><link rel="prefetch" href="/assets/js/116.f5efa55f.js"><link rel="prefetch" href="/assets/js/117.4ef289e8.js"><link rel="prefetch" href="/assets/js/118.577c0580.js"><link rel="prefetch" href="/assets/js/119.55c3375c.js"><link rel="prefetch" href="/assets/js/120.0f8329cd.js"><link rel="prefetch" href="/assets/js/121.3fa10dd3.js"><link rel="prefetch" href="/assets/js/122.03d0a451.js"><link rel="prefetch" href="/assets/js/123.e5fa6b10.js"><link rel="prefetch" href="/assets/js/124.d3e2e9a1.js"><link rel="prefetch" href="/assets/js/125.6a3d7e7a.js"><link rel="prefetch" href="/assets/js/126.edcc997b.js"><link rel="prefetch" href="/assets/js/127.e3293f2f.js"><link rel="prefetch" href="/assets/js/128.ca1a3c3e.js"><link rel="prefetch" href="/assets/js/129.d4f527f9.js"><link rel="prefetch" href="/assets/js/13.cf1eee3a.js"><link rel="prefetch" href="/assets/js/130.09686d64.js"><link rel="prefetch" href="/assets/js/131.83750efe.js"><link rel="prefetch" href="/assets/js/132.1e4b112f.js"><link rel="prefetch" href="/assets/js/133.57779d60.js"><link rel="prefetch" href="/assets/js/134.6a9193c7.js"><link rel="prefetch" href="/assets/js/135.a49d1405.js"><link rel="prefetch" href="/assets/js/136.aa07b684.js"><link rel="prefetch" href="/assets/js/137.2cd90757.js"><link rel="prefetch" href="/assets/js/138.aaa7d360.js"><link rel="prefetch" href="/assets/js/139.0bbf3d0f.js"><link rel="prefetch" href="/assets/js/14.b7f82e00.js"><link rel="prefetch" href="/assets/js/140.2a06be09.js"><link rel="prefetch" href="/assets/js/141.4ba76435.js"><link rel="prefetch" href="/assets/js/142.ffdf31f8.js"><link rel="prefetch" href="/assets/js/143.647b7258.js"><link rel="prefetch" href="/assets/js/144.f638d355.js"><link rel="prefetch" href="/assets/js/145.946cf366.js"><link rel="prefetch" href="/assets/js/146.19268a74.js"><link rel="prefetch" href="/assets/js/147.38776d01.js"><link rel="prefetch" href="/assets/js/148.444e605e.js"><link rel="prefetch" href="/assets/js/149.bff1c395.js"><link rel="prefetch" href="/assets/js/15.5fd80aad.js"><link rel="prefetch" href="/assets/js/150.c9dae85b.js"><link rel="prefetch" href="/assets/js/151.a3422661.js"><link rel="prefetch" href="/assets/js/152.2e45be23.js"><link rel="prefetch" href="/assets/js/153.625a6de3.js"><link rel="prefetch" href="/assets/js/154.2038482e.js"><link rel="prefetch" href="/assets/js/155.9ee35898.js"><link rel="prefetch" href="/assets/js/156.2690e372.js"><link rel="prefetch" href="/assets/js/157.1fad3e54.js"><link rel="prefetch" href="/assets/js/158.cb19fc8e.js"><link rel="prefetch" href="/assets/js/159.a142777e.js"><link rel="prefetch" href="/assets/js/16.d48c6c08.js"><link rel="prefetch" href="/assets/js/160.20331e59.js"><link rel="prefetch" href="/assets/js/161.54d37d32.js"><link rel="prefetch" href="/assets/js/162.5b0f2e25.js"><link rel="prefetch" href="/assets/js/163.210038b5.js"><link rel="prefetch" href="/assets/js/164.0aa9d4c3.js"><link rel="prefetch" href="/assets/js/165.92588305.js"><link rel="prefetch" href="/assets/js/166.7c997b49.js"><link rel="prefetch" href="/assets/js/167.59c7dff7.js"><link rel="prefetch" href="/assets/js/168.dbacee80.js"><link rel="prefetch" href="/assets/js/169.54534d19.js"><link rel="prefetch" href="/assets/js/17.0f6f850e.js"><link rel="prefetch" href="/assets/js/170.11f8ca13.js"><link rel="prefetch" href="/assets/js/171.c4ce00f1.js"><link rel="prefetch" href="/assets/js/172.0d05fad1.js"><link rel="prefetch" href="/assets/js/173.aa5b807a.js"><link rel="prefetch" href="/assets/js/174.56413333.js"><link rel="prefetch" href="/assets/js/175.c66e2da2.js"><link rel="prefetch" href="/assets/js/176.f95c6fa9.js"><link rel="prefetch" href="/assets/js/177.1bf45ecd.js"><link rel="prefetch" href="/assets/js/178.938648e8.js"><link rel="prefetch" href="/assets/js/179.bf8a8d97.js"><link rel="prefetch" href="/assets/js/18.949e37da.js"><link rel="prefetch" href="/assets/js/180.573d469a.js"><link rel="prefetch" href="/assets/js/181.ca2f5c4b.js"><link rel="prefetch" href="/assets/js/182.0dd28bd5.js"><link rel="prefetch" href="/assets/js/183.d9df240d.js"><link rel="prefetch" href="/assets/js/184.5712c9dc.js"><link rel="prefetch" href="/assets/js/185.a39e879c.js"><link rel="prefetch" href="/assets/js/186.1c640021.js"><link rel="prefetch" href="/assets/js/187.c142ba57.js"><link rel="prefetch" href="/assets/js/188.e011769a.js"><link rel="prefetch" href="/assets/js/189.acd582c7.js"><link rel="prefetch" href="/assets/js/19.5ec0ef8c.js"><link rel="prefetch" href="/assets/js/190.6c513a33.js"><link rel="prefetch" href="/assets/js/191.995210fc.js"><link rel="prefetch" href="/assets/js/192.edac0a94.js"><link rel="prefetch" href="/assets/js/193.683502f7.js"><link rel="prefetch" href="/assets/js/194.d4aedbcf.js"><link rel="prefetch" href="/assets/js/195.66993087.js"><link rel="prefetch" href="/assets/js/196.ba267924.js"><link rel="prefetch" href="/assets/js/197.3208285d.js"><link rel="prefetch" href="/assets/js/198.fc356b6e.js"><link rel="prefetch" href="/assets/js/199.9337bc8b.js"><link rel="prefetch" href="/assets/js/20.259a5c81.js"><link rel="prefetch" href="/assets/js/200.20c7a8cd.js"><link rel="prefetch" href="/assets/js/201.593af712.js"><link rel="prefetch" href="/assets/js/202.66a42e82.js"><link rel="prefetch" href="/assets/js/203.a93913a5.js"><link rel="prefetch" href="/assets/js/204.0f199637.js"><link rel="prefetch" href="/assets/js/205.a10f777e.js"><link rel="prefetch" href="/assets/js/206.c07d4d3d.js"><link rel="prefetch" href="/assets/js/207.c2193f20.js"><link rel="prefetch" href="/assets/js/208.b11936f2.js"><link rel="prefetch" href="/assets/js/209.7b33a052.js"><link rel="prefetch" href="/assets/js/21.3d2323d2.js"><link rel="prefetch" href="/assets/js/210.2d694b3a.js"><link rel="prefetch" href="/assets/js/211.05746e0e.js"><link rel="prefetch" href="/assets/js/212.096cb612.js"><link rel="prefetch" href="/assets/js/213.e3e91c5d.js"><link rel="prefetch" href="/assets/js/214.6a53d6d3.js"><link rel="prefetch" href="/assets/js/215.c67145ef.js"><link rel="prefetch" href="/assets/js/216.928d7e44.js"><link rel="prefetch" href="/assets/js/217.6a034508.js"><link rel="prefetch" href="/assets/js/218.2a27e579.js"><link rel="prefetch" href="/assets/js/219.c2e6c697.js"><link rel="prefetch" href="/assets/js/22.da0d6e1f.js"><link rel="prefetch" href="/assets/js/220.c2cd198d.js"><link rel="prefetch" href="/assets/js/221.4c170ce8.js"><link rel="prefetch" href="/assets/js/222.056a4412.js"><link rel="prefetch" href="/assets/js/223.fa4654fc.js"><link rel="prefetch" href="/assets/js/224.3cfd1d04.js"><link rel="prefetch" href="/assets/js/225.46a81866.js"><link rel="prefetch" href="/assets/js/226.5fe64952.js"><link rel="prefetch" href="/assets/js/227.feda67aa.js"><link rel="prefetch" href="/assets/js/228.c5099793.js"><link rel="prefetch" href="/assets/js/229.d53d1055.js"><link rel="prefetch" href="/assets/js/23.fd64096f.js"><link rel="prefetch" href="/assets/js/230.034cddfa.js"><link rel="prefetch" href="/assets/js/231.744ee2b3.js"><link rel="prefetch" href="/assets/js/232.8c38f266.js"><link rel="prefetch" href="/assets/js/233.2f2fac42.js"><link rel="prefetch" href="/assets/js/234.cb538393.js"><link rel="prefetch" href="/assets/js/235.856415c8.js"><link rel="prefetch" href="/assets/js/236.39117ee6.js"><link rel="prefetch" href="/assets/js/237.bfd4a4b5.js"><link rel="prefetch" href="/assets/js/238.e559c45e.js"><link rel="prefetch" href="/assets/js/239.86dac60c.js"><link rel="prefetch" href="/assets/js/24.7c99806d.js"><link rel="prefetch" href="/assets/js/240.4ef6b328.js"><link rel="prefetch" href="/assets/js/241.587eac5b.js"><link rel="prefetch" href="/assets/js/242.6dd91988.js"><link rel="prefetch" href="/assets/js/243.ae59626a.js"><link rel="prefetch" href="/assets/js/244.67f8d56e.js"><link rel="prefetch" href="/assets/js/245.71b74992.js"><link rel="prefetch" href="/assets/js/246.34d95fd1.js"><link rel="prefetch" href="/assets/js/247.5aeecd02.js"><link rel="prefetch" href="/assets/js/248.054ea710.js"><link rel="prefetch" href="/assets/js/249.ce406896.js"><link rel="prefetch" href="/assets/js/25.650f3143.js"><link rel="prefetch" href="/assets/js/250.d32d2bdb.js"><link rel="prefetch" href="/assets/js/251.b86fa95f.js"><link rel="prefetch" href="/assets/js/252.486137bc.js"><link rel="prefetch" href="/assets/js/253.3c822ab9.js"><link rel="prefetch" href="/assets/js/254.0baf2b11.js"><link rel="prefetch" href="/assets/js/255.4dc48537.js"><link rel="prefetch" href="/assets/js/256.3466a29d.js"><link rel="prefetch" href="/assets/js/257.f3611ec4.js"><link rel="prefetch" href="/assets/js/258.26bd7ac1.js"><link rel="prefetch" href="/assets/js/259.2bca1cfb.js"><link rel="prefetch" href="/assets/js/26.d4cea066.js"><link rel="prefetch" href="/assets/js/260.02836dcb.js"><link rel="prefetch" href="/assets/js/261.c946145d.js"><link rel="prefetch" href="/assets/js/262.bc70878d.js"><link rel="prefetch" href="/assets/js/263.1669ea89.js"><link rel="prefetch" href="/assets/js/264.4cf462f4.js"><link rel="prefetch" href="/assets/js/265.b4127039.js"><link rel="prefetch" href="/assets/js/266.88bf95ef.js"><link rel="prefetch" href="/assets/js/267.490769f4.js"><link rel="prefetch" href="/assets/js/268.97c56910.js"><link rel="prefetch" href="/assets/js/269.938ada3b.js"><link rel="prefetch" href="/assets/js/27.c1373508.js"><link rel="prefetch" href="/assets/js/270.c66d5a22.js"><link rel="prefetch" href="/assets/js/271.8a6b926f.js"><link rel="prefetch" href="/assets/js/272.5cab4189.js"><link rel="prefetch" href="/assets/js/273.01ba09b0.js"><link rel="prefetch" href="/assets/js/274.0c68483c.js"><link rel="prefetch" href="/assets/js/275.609407ef.js"><link rel="prefetch" href="/assets/js/276.4bc8803e.js"><link rel="prefetch" href="/assets/js/28.92b164f3.js"><link rel="prefetch" href="/assets/js/29.a39d6afa.js"><link rel="prefetch" href="/assets/js/3.b0e2a56d.js"><link rel="prefetch" href="/assets/js/30.5c654cd9.js"><link rel="prefetch" href="/assets/js/31.f229b0e9.js"><link rel="prefetch" href="/assets/js/32.6bd064d5.js"><link rel="prefetch" href="/assets/js/34.60e2352e.js"><link rel="prefetch" href="/assets/js/35.7bfca5af.js"><link rel="prefetch" href="/assets/js/36.7d8b7bce.js"><link rel="prefetch" href="/assets/js/37.f2962036.js"><link rel="prefetch" href="/assets/js/38.a107fa47.js"><link rel="prefetch" href="/assets/js/39.d836fc78.js"><link rel="prefetch" href="/assets/js/4.a6a2370c.js"><link rel="prefetch" href="/assets/js/40.5684d490.js"><link rel="prefetch" href="/assets/js/41.8468065d.js"><link rel="prefetch" href="/assets/js/42.9c572aa3.js"><link rel="prefetch" href="/assets/js/43.f5a66641.js"><link rel="prefetch" href="/assets/js/44.1d3f1c11.js"><link rel="prefetch" href="/assets/js/45.b095d9dc.js"><link rel="prefetch" href="/assets/js/46.ec78ee1b.js"><link rel="prefetch" href="/assets/js/47.3eab507b.js"><link rel="prefetch" href="/assets/js/48.0aa0ba5e.js"><link rel="prefetch" href="/assets/js/49.a1f0c2e2.js"><link rel="prefetch" href="/assets/js/5.adb10cb0.js"><link rel="prefetch" href="/assets/js/50.1c37e952.js"><link rel="prefetch" href="/assets/js/51.fa2bf3ee.js"><link rel="prefetch" href="/assets/js/52.fc4ee990.js"><link rel="prefetch" href="/assets/js/53.9d6808ca.js"><link rel="prefetch" href="/assets/js/54.b2c0d43e.js"><link rel="prefetch" href="/assets/js/55.64003d09.js"><link rel="prefetch" href="/assets/js/56.41302f08.js"><link rel="prefetch" href="/assets/js/58.dc53e574.js"><link rel="prefetch" href="/assets/js/59.aa1c8b06.js"><link rel="prefetch" href="/assets/js/6.8a3e2fb2.js"><link rel="prefetch" href="/assets/js/60.16b33573.js"><link rel="prefetch" href="/assets/js/61.9105e443.js"><link rel="prefetch" href="/assets/js/62.d23df5aa.js"><link rel="prefetch" href="/assets/js/63.b920cd75.js"><link rel="prefetch" href="/assets/js/64.e303a7b8.js"><link rel="prefetch" href="/assets/js/65.c99397b6.js"><link rel="prefetch" href="/assets/js/66.6f870702.js"><link rel="prefetch" href="/assets/js/67.32950200.js"><link rel="prefetch" href="/assets/js/68.c2ad6105.js"><link rel="prefetch" href="/assets/js/69.5b2e9308.js"><link rel="prefetch" href="/assets/js/7.369a60d6.js"><link rel="prefetch" href="/assets/js/70.779dced2.js"><link rel="prefetch" href="/assets/js/71.34074b7e.js"><link rel="prefetch" href="/assets/js/72.f61c4601.js"><link rel="prefetch" href="/assets/js/73.e7a1c124.js"><link rel="prefetch" href="/assets/js/74.e9a344ce.js"><link rel="prefetch" href="/assets/js/75.a5ff70c9.js"><link rel="prefetch" href="/assets/js/76.e10306ef.js"><link rel="prefetch" href="/assets/js/77.be12e211.js"><link rel="prefetch" href="/assets/js/78.82ad159d.js"><link rel="prefetch" href="/assets/js/79.de1f9ae8.js"><link rel="prefetch" href="/assets/js/8.6af394ac.js"><link rel="prefetch" href="/assets/js/80.4b01491d.js"><link rel="prefetch" href="/assets/js/81.53c25ea5.js"><link rel="prefetch" href="/assets/js/82.7e02e113.js"><link rel="prefetch" href="/assets/js/83.ec4a5e17.js"><link rel="prefetch" href="/assets/js/84.7abe93f4.js"><link rel="prefetch" href="/assets/js/85.fbcfd8d6.js"><link rel="prefetch" href="/assets/js/86.d1a81773.js"><link rel="prefetch" href="/assets/js/87.15bf48ba.js"><link rel="prefetch" href="/assets/js/88.4a90ee7b.js"><link rel="prefetch" href="/assets/js/89.d73554f4.js"><link rel="prefetch" href="/assets/js/9.d75f38ee.js"><link rel="prefetch" href="/assets/js/90.70fa7d6f.js"><link rel="prefetch" href="/assets/js/91.05e31992.js"><link rel="prefetch" href="/assets/js/92.29b3d77d.js"><link rel="prefetch" href="/assets/js/93.c5f2acec.js"><link rel="prefetch" href="/assets/js/94.2a0d8c76.js"><link rel="prefetch" href="/assets/js/95.52d2d703.js"><link rel="prefetch" href="/assets/js/96.bc095313.js"><link rel="prefetch" href="/assets/js/97.da3925a6.js"><link rel="prefetch" href="/assets/js/98.e3110d9b.js"><link rel="prefetch" href="/assets/js/99.de97d763.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.ac68252c.css">
+  </head>
+  <body class="theme-mode-light">
+    <div id="app" data-server-rendered="true"><div class="theme-container sidebar-open have-rightmenu"><header class="navbar blur"><div title="目录" class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><img src="/logo.jpg" alt="ghgeng-blogs" class="logo"> <span class="site-name can-hide">ghgeng-blogs</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" placeholder="输入关键字试试..." value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/" class="nav-link">主页</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="web" class="dropdown-title"><!----> <span class="title" style="display:;">web</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>Vue</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/pages/bed57f/" class="nav-link">Vue 核心</a></li><li class="dropdown-subitem"><a href="/pages/8a754b/" class="nav-link">Vue 组件化编程</a></li></ul></li><li class="dropdown-item"><h4>React</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/pages/0ca7e4/" class="nav-link">介绍</a></li><li class="dropdown-subitem"><a href="/pages/a70dc6/" class="nav-link">React组件化思想</a></li></ul></li><li class="dropdown-item"><h4>Node</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/pages/197124/" class="nav-link">Node</a></li></ul></li><li class="dropdown-item"><h4>Vuepress</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/pages/31b705/" class="nav-link">VuePress介绍</a></li><li class="dropdown-subitem"><a href="/pages/a3b759/" class="nav-link">Vuepress搭建</a></li><li class="dropdown-subitem"><a href="/pages/1755c9/" class="nav-link">VuePress配置</a></li><li class="dropdown-subitem"><a href="/pages/a2828e/" class="nav-link">VuePress主题</a></li></ul></li><li class="dropdown-item"><h4>其他</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/web/其他/" class="nav-link">websocket</a></li></ul></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="算法" class="dropdown-title"><!----> <span class="title" style="display:;">算法</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>算法基础</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/pages/23c245/" class="nav-link">数据结构基础</a></li></ul></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="java" class="dropdown-title"><!----> <span class="title" style="display:;">java</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>java基础</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/pages/8b6756/" class="nav-link">Java基础语法</a></li><li class="dropdown-subitem"><a href="/pages/e95942/" class="nav-link">Java面向对象</a></li></ul></li><li class="dropdown-item"><h4>java进阶</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/pages/fcd8c4/" class="nav-link">java集合框架</a></li><li class="dropdown-subitem"><a href="/pages/36f6fb/" class="nav-link">java多线程与并发</a></li><li class="dropdown-subitem"><a href="/pages/8faa4c/" class="nav-link">java虚拟机</a></li></ul></li><li class="dropdown-item"><h4>java8新特性</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/pages/0dd8ea/" class="nav-link">java8新特性</a></li></ul></li><li class="dropdown-item"><h4>Java Swing</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/pages/ddf976/" class="nav-link">第一个窗口</a></li><li class="dropdown-subitem"><a href="/pages/25c361/" class="nav-link">容器与控件</a></li><li class="dropdown-subitem"><a href="/pages/d328c5/" class="nav-link">布局管理</a></li><li class="dropdown-subitem"><a href="/pages/264647/" class="nav-link">自定义控件</a></li><li class="dropdown-subitem"><a href="/pages/b40af2/" class="nav-link">Java Swing Apps</a></li></ul></li><li class="dropdown-item"><h4>JavaFX</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/pages/93acdb/" class="nav-link">JavaFx导读</a></li><li class="dropdown-subitem"><a href="/pages/af2083/" class="nav-link">JavaFX 2D形状</a></li><li class="dropdown-subitem"><a href="/pages/ae9620/" class="nav-link">JavaFX Text</a></li><li class="dropdown-subitem"><a href="/pages/bca287/" class="nav-link">JavaFX 特效</a></li><li class="dropdown-subitem"><a href="/pages/edde46/" class="nav-link">JavaFX UI</a></li></ul></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="框架" class="dropdown-title"><!----> <span class="title" style="display:;">框架</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/pages/af03d4/" class="nav-link">Maven</a></li><li class="dropdown-item"><!----> <a href="/pages/4fa5b9/" class="nav-link">Gradle</a></li><li class="dropdown-item"><!----> <a href="/pages/bdafcd/" class="nav-link">Mybatis</a></li><li class="dropdown-item"><!----> <a href="/pages/727c8c/" class="nav-link">Spring</a></li><li class="dropdown-item"><!----> <a href="/pages/0ca278/" class="nav-link">SpringBoot</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="运维" class="dropdown-title"><!----> <span class="title" style="display:;">运维</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/pages/76da3a/" class="nav-link">Linux</a></li><li class="dropdown-item"><!----> <a href="/pages/517021/" class="nav-link">Nginx</a></li><li class="dropdown-item"><!----> <a href="/pages/80a31a/" class="nav-link">Docker</a></li><li class="dropdown-item"><!----> <a href="/pages/06397f/" class="nav-link">Nacos</a></li><li class="dropdown-item"><!----> <a href="/pages/6d4360/" class="nav-link">Redis</a></li><li class="dropdown-item"><!----> <a href="/pages/32621c/" class="nav-link">Rocketmq</a></li><li class="dropdown-item"><!----> <a href="/pages/b7b935/" class="nav-link">Git</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="数据库" class="dropdown-title"><!----> <span class="title" style="display:;">数据库</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/pages/f28680/" class="nav-link">Mysql</a></li><li class="dropdown-item"><!----> <a href="/pages/561932/" class="nav-link">Oracle</a></li><li class="dropdown-item"><!----> <a href="/pages/5305dd/" class="nav-link">PostgreSql</a></li><li class="dropdown-item"><!----> <a href="/pages/8b0f8a/" class="nav-link">MongoDB</a></li></ul></div></div><div class="nav-item"><a href="/pages/b61cbd/" class="nav-link">资料|笔记</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="常用开发|工具" class="dropdown-title"><!----> <span class="title" style="display:;">常用开发|工具</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/pages/7c6272/" class="nav-link">工具类及常见问题</a></li><li class="dropdown-item"><!----> <a href="/pages/7c58bc/" class="nav-link">正则表达式</a></li><li class="dropdown-item"><!----> <a href="/pages/310506/" class="nav-link">设计模式</a></li></ul></div></div><div class="nav-item"><a href="/pages/d32113/" class="nav-link">面试</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="其他" class="dropdown-title"><!----> <span class="title" style="display:;">其他</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/pages/c14e0a/" aria-current="page" class="nav-link router-link-exact-active router-link-active">记录</a></li><li class="dropdown-item"><!----> <a href="/pages/b457c8/" class="nav-link">资源导航</a></li><li class="dropdown-item"><!----> <a href="/pages/518d1a/" class="nav-link">实用方法</a></li><li class="dropdown-item"><!----> <a href="/pages/0dc91e/" class="nav-link">markdown语法</a></li><li class="dropdown-item"><!----> <a href="/pages/af2cf2/" class="nav-link">术语大全</a></li><li class="dropdown-item"><!----> <a href="/其他/阅读文章/" class="nav-link">阅读文章</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="了解更多" class="dropdown-title"><!----> <span class="title" style="display:;">了解更多</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="https://www.zlg.cn/index/pub/awtk.html" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  AWTK 官网
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li><li class="dropdown-item"><!----> <a href="https://awtk.zlg.cn/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  AWTK 云平台
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li><li class="dropdown-item"><!----> <a href="https://github.com/zlgopen/awtk" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  GitHub 仓库
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li><li class="dropdown-item"><!----> <a href="https://gitee.com/zlgopen/awtk" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Gitee 仓库
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li></ul></div></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <div class="sidebar-hover-trigger"></div> <aside class="sidebar" style="display:none;"><!----> <nav class="nav-links"><div class="nav-item"><a href="/" class="nav-link">主页</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="web" class="dropdown-title"><!----> <span class="title" style="display:;">web</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>Vue</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/pages/bed57f/" class="nav-link">Vue 核心</a></li><li class="dropdown-subitem"><a href="/pages/8a754b/" class="nav-link">Vue 组件化编程</a></li></ul></li><li class="dropdown-item"><h4>React</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/pages/0ca7e4/" class="nav-link">介绍</a></li><li class="dropdown-subitem"><a href="/pages/a70dc6/" class="nav-link">React组件化思想</a></li></ul></li><li class="dropdown-item"><h4>Node</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/pages/197124/" class="nav-link">Node</a></li></ul></li><li class="dropdown-item"><h4>Vuepress</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/pages/31b705/" class="nav-link">VuePress介绍</a></li><li class="dropdown-subitem"><a href="/pages/a3b759/" class="nav-link">Vuepress搭建</a></li><li class="dropdown-subitem"><a href="/pages/1755c9/" class="nav-link">VuePress配置</a></li><li class="dropdown-subitem"><a href="/pages/a2828e/" class="nav-link">VuePress主题</a></li></ul></li><li class="dropdown-item"><h4>其他</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/web/其他/" class="nav-link">websocket</a></li></ul></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="算法" class="dropdown-title"><!----> <span class="title" style="display:;">算法</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>算法基础</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/pages/23c245/" class="nav-link">数据结构基础</a></li></ul></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="java" class="dropdown-title"><!----> <span class="title" style="display:;">java</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>java基础</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/pages/8b6756/" class="nav-link">Java基础语法</a></li><li class="dropdown-subitem"><a href="/pages/e95942/" class="nav-link">Java面向对象</a></li></ul></li><li class="dropdown-item"><h4>java进阶</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/pages/fcd8c4/" class="nav-link">java集合框架</a></li><li class="dropdown-subitem"><a href="/pages/36f6fb/" class="nav-link">java多线程与并发</a></li><li class="dropdown-subitem"><a href="/pages/8faa4c/" class="nav-link">java虚拟机</a></li></ul></li><li class="dropdown-item"><h4>java8新特性</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/pages/0dd8ea/" class="nav-link">java8新特性</a></li></ul></li><li class="dropdown-item"><h4>Java Swing</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/pages/ddf976/" class="nav-link">第一个窗口</a></li><li class="dropdown-subitem"><a href="/pages/25c361/" class="nav-link">容器与控件</a></li><li class="dropdown-subitem"><a href="/pages/d328c5/" class="nav-link">布局管理</a></li><li class="dropdown-subitem"><a href="/pages/264647/" class="nav-link">自定义控件</a></li><li class="dropdown-subitem"><a href="/pages/b40af2/" class="nav-link">Java Swing Apps</a></li></ul></li><li class="dropdown-item"><h4>JavaFX</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/pages/93acdb/" class="nav-link">JavaFx导读</a></li><li class="dropdown-subitem"><a href="/pages/af2083/" class="nav-link">JavaFX 2D形状</a></li><li class="dropdown-subitem"><a href="/pages/ae9620/" class="nav-link">JavaFX Text</a></li><li class="dropdown-subitem"><a href="/pages/bca287/" class="nav-link">JavaFX 特效</a></li><li class="dropdown-subitem"><a href="/pages/edde46/" class="nav-link">JavaFX UI</a></li></ul></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="框架" class="dropdown-title"><!----> <span class="title" style="display:;">框架</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/pages/af03d4/" class="nav-link">Maven</a></li><li class="dropdown-item"><!----> <a href="/pages/4fa5b9/" class="nav-link">Gradle</a></li><li class="dropdown-item"><!----> <a href="/pages/bdafcd/" class="nav-link">Mybatis</a></li><li class="dropdown-item"><!----> <a href="/pages/727c8c/" class="nav-link">Spring</a></li><li class="dropdown-item"><!----> <a href="/pages/0ca278/" class="nav-link">SpringBoot</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="运维" class="dropdown-title"><!----> <span class="title" style="display:;">运维</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/pages/76da3a/" class="nav-link">Linux</a></li><li class="dropdown-item"><!----> <a href="/pages/517021/" class="nav-link">Nginx</a></li><li class="dropdown-item"><!----> <a href="/pages/80a31a/" class="nav-link">Docker</a></li><li class="dropdown-item"><!----> <a href="/pages/06397f/" class="nav-link">Nacos</a></li><li class="dropdown-item"><!----> <a href="/pages/6d4360/" class="nav-link">Redis</a></li><li class="dropdown-item"><!----> <a href="/pages/32621c/" class="nav-link">Rocketmq</a></li><li class="dropdown-item"><!----> <a href="/pages/b7b935/" class="nav-link">Git</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="数据库" class="dropdown-title"><!----> <span class="title" style="display:;">数据库</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/pages/f28680/" class="nav-link">Mysql</a></li><li class="dropdown-item"><!----> <a href="/pages/561932/" class="nav-link">Oracle</a></li><li class="dropdown-item"><!----> <a href="/pages/5305dd/" class="nav-link">PostgreSql</a></li><li class="dropdown-item"><!----> <a href="/pages/8b0f8a/" class="nav-link">MongoDB</a></li></ul></div></div><div class="nav-item"><a href="/pages/b61cbd/" class="nav-link">资料|笔记</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="常用开发|工具" class="dropdown-title"><!----> <span class="title" style="display:;">常用开发|工具</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/pages/7c6272/" class="nav-link">工具类及常见问题</a></li><li class="dropdown-item"><!----> <a href="/pages/7c58bc/" class="nav-link">正则表达式</a></li><li class="dropdown-item"><!----> <a href="/pages/310506/" class="nav-link">设计模式</a></li></ul></div></div><div class="nav-item"><a href="/pages/d32113/" class="nav-link">面试</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="其他" class="dropdown-title"><!----> <span class="title" style="display:;">其他</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/pages/c14e0a/" aria-current="page" class="nav-link router-link-exact-active router-link-active">记录</a></li><li class="dropdown-item"><!----> <a href="/pages/b457c8/" class="nav-link">资源导航</a></li><li class="dropdown-item"><!----> <a href="/pages/518d1a/" class="nav-link">实用方法</a></li><li class="dropdown-item"><!----> <a href="/pages/0dc91e/" class="nav-link">markdown语法</a></li><li class="dropdown-item"><!----> <a href="/pages/af2cf2/" class="nav-link">术语大全</a></li><li class="dropdown-item"><!----> <a href="/其他/阅读文章/" class="nav-link">阅读文章</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="了解更多" class="dropdown-title"><!----> <span class="title" style="display:;">了解更多</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="https://www.zlg.cn/index/pub/awtk.html" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  AWTK 官网
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li><li class="dropdown-item"><!----> <a href="https://awtk.zlg.cn/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  AWTK 云平台
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li><li class="dropdown-item"><!----> <a href="https://github.com/zlgopen/awtk" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  GitHub 仓库
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li><li class="dropdown-item"><!----> <a href="https://gitee.com/zlgopen/awtk" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Gitee 仓库
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li></ul></div></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading open"><span>目录</span> <span class="arrow down"></span></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/pages/c14e0a/" aria-current="page" class="active sidebar-link">记录</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header level2"><a href="/pages/c14e0a/#语录" class="sidebar-link">语录 🌍</a></li></ul></li><li><a href="/pages/6e768f/" class="sidebar-link">词典</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#历抵" class="sidebar-link">历抵</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#制举" class="sidebar-link">制举</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#桑柘" class="sidebar-link">桑柘</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#望帝化鹃" class="sidebar-link">望帝化鹃</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#濯洗" class="sidebar-link">濯洗</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#锦城" class="sidebar-link">锦城</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#巨擘" class="sidebar-link">巨擘</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#紫绶金章" class="sidebar-link">紫绶金章</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#俳优畜之" class="sidebar-link">俳优畜之</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#余事" class="sidebar-link">余事</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#比屋连甍" class="sidebar-link">比屋连甍</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#杂沓" class="sidebar-link">杂沓</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#案头" class="sidebar-link">案头</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#桑间濮上" class="sidebar-link">桑间濮上</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#程仪" class="sidebar-link">程仪</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#谒见" class="sidebar-link">谒见</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#揄揶" class="sidebar-link">揄揶</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#晤谈" class="sidebar-link">晤谈</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#干求不遂-便生咒恨。" class="sidebar-link">干求不遂,便生咒恨。</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#干谒" class="sidebar-link">干谒</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#禄仕" class="sidebar-link">禄仕</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#谱谍" class="sidebar-link">谱谍</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#颓靡" class="sidebar-link">颓靡</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#紫陌" class="sidebar-link">紫陌</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#紫陌红尘" class="sidebar-link">紫陌红尘</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#岸芷汀兰" class="sidebar-link">岸芷汀兰</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#堑山堙谷" class="sidebar-link">堑山堙谷</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#稷下学宫" class="sidebar-link">稷下学宫</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#秦直道" class="sidebar-link">秦直道</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#三公九卿" class="sidebar-link">三公九卿</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#朝南岳" class="sidebar-link">朝南岳</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#僚佐" class="sidebar-link">僚佐</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#幕僚" class="sidebar-link">幕僚</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#附逆" class="sidebar-link">附逆</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#服饵" class="sidebar-link">服饵</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#荣亲" class="sidebar-link">荣亲</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#鸿蒙" class="sidebar-link">鸿蒙</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#云蒸霞蔚" class="sidebar-link">云蒸霞蔚</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#白练" class="sidebar-link">白练</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#亡佚" class="sidebar-link">亡佚</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#丰稔" class="sidebar-link">丰稔</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#大猷" class="sidebar-link">大猷</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#丕图" class="sidebar-link">丕图</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#绍" class="sidebar-link">绍</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#刊定" class="sidebar-link">刊定</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#仪注" class="sidebar-link">仪注</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#孝弟" class="sidebar-link">孝弟</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#缮写" class="sidebar-link">缮写</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#朱门-朱門" class="sidebar-link">朱门（朱門）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#汩汩滔滔" class="sidebar-link">汩汩滔滔</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#鲵鲋-鯢鮒" class="sidebar-link">鲵鲋（鯢鮒）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#虹霓" class="sidebar-link">虹霓</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#螮蝀" class="sidebar-link">螮蝀</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#翰墨" class="sidebar-link">翰墨</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#舞榭" class="sidebar-link">舞榭</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#当垆-當壚-當罏" class="sidebar-link">当垆（當壚|當罏）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#尽觞-盡觴" class="sidebar-link">尽觞（盡觴）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#羽觞" class="sidebar-link">羽觞</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#粲花" class="sidebar-link">粲花</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#琼筵-瓊筵" class="sidebar-link">琼筵（瓊筵）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#坐花" class="sidebar-link">坐花</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#醉月" class="sidebar-link">醉月</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#五白" class="sidebar-link">五白</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#六博" class="sidebar-link">六博</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#多暇" class="sidebar-link">多暇</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#繁霜" class="sidebar-link">繁霜</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#清君侧-清君側" class="sidebar-link">清君侧（清君側）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#细柳营" class="sidebar-link">细柳营</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#单于" class="sidebar-link">单于</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#推恩令" class="sidebar-link">推恩令</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#郡县制" class="sidebar-link">郡县制</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#青冥" class="sidebar-link">青冥</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#慰勉" class="sidebar-link">慰勉</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#簪缨" class="sidebar-link">簪缨</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#幽栖-幽棲" class="sidebar-link">幽栖（幽棲）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#抵掌" class="sidebar-link">抵掌</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#促膝" class="sidebar-link">促膝</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#盘桓-盤桓-槃桓" class="sidebar-link">盘桓（盤桓|槃桓）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#余荫-餘蔭" class="sidebar-link">余荫（餘蔭）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#缇萦救父" class="sidebar-link">缇萦救父</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#萧规曹随" class="sidebar-link">萧规曹随</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#泰畤" class="sidebar-link">泰畤</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#陪奁-陪奩" class="sidebar-link">陪奁（陪奩）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#修葺" class="sidebar-link">修葺</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#蓊郁-蓊鬱" class="sidebar-link">蓊郁（蓊鬱）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#倾圮-傾圮" class="sidebar-link">倾圮（傾圮）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#摧圮" class="sidebar-link">摧圮</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#朝野" class="sidebar-link">朝野</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#豪彦" class="sidebar-link">豪彦</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#邸第" class="sidebar-link">邸第</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#移文" class="sidebar-link">移文</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#素志" class="sidebar-link">素志</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#木魅" class="sidebar-link">木魅</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#雄虺" class="sidebar-link">雄虺</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#诣阙-詣闕" class="sidebar-link">诣阙（詣闕）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#赭红-赭紅" class="sidebar-link">赭红（赭紅）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#朱雀门" class="sidebar-link">朱雀门</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#障泥" class="sidebar-link">障泥</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#绯袍-緋袍" class="sidebar-link">绯袍（緋袍）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#箜篌" class="sidebar-link">箜篌</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#羯鼓" class="sidebar-link">羯鼓</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#饸饹-餄餎" class="sidebar-link">饸饹（餄餎）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#当垆-當壚-當罏-2" class="sidebar-link">当垆（當壚|當罏）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#呷" class="sidebar-link">呷</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#卑辞厚-重-币" class="sidebar-link">卑辞厚(重)币</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#姬" class="sidebar-link">姬</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#忸怩" class="sidebar-link">忸怩</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#笙歌" class="sidebar-link">笙歌</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#赤帻-赤幘" class="sidebar-link">赤帻（赤幘）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#京畿" class="sidebar-link">京畿</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#遐迩-遐邇" class="sidebar-link">遐迩（遐邇）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#阊阖-閶闔" class="sidebar-link">阊阖（閶闔）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#致仕" class="sidebar-link">致仕</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#加九锡" class="sidebar-link">加九锡</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#令名" class="sidebar-link">令名</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#洗濯" class="sidebar-link">洗濯</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#别馆-别館" class="sidebar-link">别馆（别館）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#霖雨" class="sidebar-link">霖雨</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#萧飒-蕭颯" class="sidebar-link">萧飒（蕭颯）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#丹徒布衣" class="sidebar-link">丹徒布衣</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#打秋风-打秋風" class="sidebar-link">打秋风（打秋風）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#藜藿" class="sidebar-link">藜藿</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#蟏蛸-蠨蛸" class="sidebar-link">蟏蛸（蠨蛸）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#褊浅-褊淺" class="sidebar-link">褊浅（褊淺）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#鹔鹴-鷫鸘" class="sidebar-link">鹔鹴（鷫鸘）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#卖官鬻爵" class="sidebar-link">卖官鬻爵</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#算缗告缗-min" class="sidebar-link">算缗告缗(mín)</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#鹔鹴裘-鷫鸘裘" class="sidebar-link">鹔鹴裘（鷫鸘裘）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#络头-絡頭" class="sidebar-link">络头（絡頭）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#马鬃-馬鬃-馬騣" class="sidebar-link">马鬃（馬鬃|馬騣）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#螺髻" class="sidebar-link">螺髻</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#帝胄" class="sidebar-link">帝胄</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#提携-提攜" class="sidebar-link">提携（提攜）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#羁旅-羈旅" class="sidebar-link">羁旅（羈旅）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#寒伧-寒傖" class="sidebar-link">寒伧（寒傖）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#海晏河清" class="sidebar-link">海晏河清</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#偃武修文" class="sidebar-link">偃武修文</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#华筵-華筵" class="sidebar-link">华筵（華筵）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#阮囊羞涩" class="sidebar-link">阮囊羞涩</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#畚箕" class="sidebar-link">畚箕</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#鼋鼍-黿鼉" class="sidebar-link">鼋鼍（黿鼉）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#宫阙-宫闕" class="sidebar-link">宫阙（宫闕）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#双阙-雙闕" class="sidebar-link">双阙（雙闕）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#吴钩-吴鉤-吴鈎" class="sidebar-link">吴钩（吴鉤|吴鈎）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#万乘-萬乘" class="sidebar-link">万乘（萬乘）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#五陵" class="sidebar-link">五陵</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#块垒-塊壘" class="sidebar-link">块垒（塊壘）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#烦嚣" class="sidebar-link">烦嚣</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#轻拢慢捻-輕攏慢撚" class="sidebar-link">轻拢慢捻（輕攏慢撚）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#惊魂甫定" class="sidebar-link">惊魂甫定</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#喧豗-諠豗" class="sidebar-link">喧豗（諠豗）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#崔嵬" class="sidebar-link">崔嵬</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#匪亲-匪親" class="sidebar-link">匪亲（匪親）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#咨嗟" class="sidebar-link">咨嗟</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#颓垣-穨垣-頽垣" class="sidebar-link">颓垣（穨垣|頽垣）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#伶人" class="sidebar-link">伶人</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#知客" class="sidebar-link">知客</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#檀越" class="sidebar-link">檀越</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#驳杂-駁雜" class="sidebar-link">驳杂（駁雜）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#单帐-單帳" class="sidebar-link">单帐（單帳）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#表礼-表禮" class="sidebar-link">表礼（表禮）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#巾帻-巾幘" class="sidebar-link">巾帻（巾幘）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#省戒" class="sidebar-link">省戒</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#托大" class="sidebar-link">托大</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#禅和子-禪和子" class="sidebar-link">禅和子（禪和子）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#舀" class="sidebar-link">舀</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#膏腴" class="sidebar-link">膏腴</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#晓镜" class="sidebar-link">晓镜</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#氤" class="sidebar-link">氤</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#石龛-石龕" class="sidebar-link">石龛（石龕）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#锦衾-錦衾" class="sidebar-link">锦衾（錦衾）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#华轩-華軒" class="sidebar-link">华轩（華軒）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#翠微" class="sidebar-link">翠微</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#翠微-2" class="sidebar-link">翠微</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#陪奁-陪奩-2" class="sidebar-link">陪奁（陪奩）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#衾枕" class="sidebar-link">衾枕</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#胡为-胡爲" class="sidebar-link">胡为（胡爲）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#称誉-稱譽" class="sidebar-link">称誉（稱譽）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#末事" class="sidebar-link">末事</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#修葺-2" class="sidebar-link">修葺</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#豪彦-2" class="sidebar-link">豪彦</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#酒阑-酒闌" class="sidebar-link">酒阑（酒闌）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#路歧" class="sidebar-link">路歧</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#省亲-省親" class="sidebar-link">省亲（省親）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#噇" class="sidebar-link">噇</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#亮槅" class="sidebar-link">亮槅</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#啰唣-囉唣-囉唕" class="sidebar-link">啰唣（囉唣|囉唕）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#直裰" class="sidebar-link">直裰</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#待诏-待詔" class="sidebar-link">待诏（待詔）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#戗戗-戧戧" class="sidebar-link">戗戗（戧戧）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#赶趁-趕趁" class="sidebar-link">赶趁（趕趁）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#望子" class="sidebar-link">望子</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#掿nuo" class="sidebar-link">掿nuò</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#撧葱" class="sidebar-link">撧葱</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#揭帝" class="sidebar-link">揭帝</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#摌马-摌馬" class="sidebar-link">摌马（摌馬）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#鞍辔-鞍轡" class="sidebar-link">鞍辔（鞍轡）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#剪拂" class="sidebar-link">剪拂</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#虬枝" class="sidebar-link">虬枝</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#剪径-剪徑" class="sidebar-link">剪径（剪徑）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#利市" class="sidebar-link">利市</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#赍发-賫發-齎發" class="sidebar-link">赍发（賫發|齎發）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#燎彻-燎徹" class="sidebar-link">燎彻（燎徹）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#酸醨" class="sidebar-link">酸醨</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#呼卢-呼盧" class="sidebar-link">呼卢（呼盧）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#七条-七條" class="sidebar-link">七条（七條）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#白言" class="sidebar-link">白言</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#嚣言-囂言" class="sidebar-link">嚣言（囂言）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#兼听则明-偏信则暗" class="sidebar-link">兼听则明，偏信则暗</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#殷忧" class="sidebar-link">殷忧</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#竭诚-竭誠" class="sidebar-link">竭诚（竭誠）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#胡越" class="sidebar-link">胡越</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#自牧" class="sidebar-link">自牧</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#三驱-三驅" class="sidebar-link">三驱（三驅）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#壅蔽" class="sidebar-link">壅蔽</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#松乔-松喬" class="sidebar-link">松乔（松喬）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#垂拱" class="sidebar-link">垂拱</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#司职-司職" class="sidebar-link">司职（司職）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#塞垣" class="sidebar-link">塞垣</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#矍铄-矍鑠" class="sidebar-link">矍铄（矍鑠）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#桓桓" class="sidebar-link">桓桓</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#雅好" class="sidebar-link">雅好</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#绮食-綺食" class="sidebar-link">绮食（綺食）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#琼杯-瓊杯" class="sidebar-link">琼杯（瓊杯）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#玉圭" class="sidebar-link">玉圭</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#桐叶封弟-桐葉封弟" class="sidebar-link">桐叶封弟（桐葉封弟）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#箫鼓-簫鼓" class="sidebar-link">箫鼓（簫鼓）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#婵娟-嬋娟" class="sidebar-link">婵娟（嬋娟）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#粲花之论" class="sidebar-link">粲花之论</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#倚马之才" class="sidebar-link">倚马之才</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#枕戈待旦" class="sidebar-link">枕戈待旦</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#府尹" class="sidebar-link">府尹</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#狐裘" class="sidebar-link">狐裘</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#五花马-五花馬" class="sidebar-link">五花马（五花馬）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#不仕" class="sidebar-link">不仕</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#宿构-宿構-宿搆" class="sidebar-link">宿构（宿構|宿搆）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#钟鼓-鐘鼓" class="sidebar-link">钟鼓（鐘鼓）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#馔玉-饌玉" class="sidebar-link">馔玉（饌玉）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#钟鼓馔玉-鐘鼓饌玉" class="sidebar-link">钟鼓馔玉（鐘鼓饌玉）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#杜撰" class="sidebar-link">杜撰</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#塞垣-2" class="sidebar-link">塞垣</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#阿堵物" class="sidebar-link">阿堵物</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#孔方兄" class="sidebar-link">孔方兄</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#沽取" class="sidebar-link">沽取</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#萋萋" class="sidebar-link">萋萋</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#芳草" class="sidebar-link">芳草</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#心旌" class="sidebar-link">心旌</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#丁忧-丁憂" class="sidebar-link">丁忧（丁憂）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#缅邈-緬邈" class="sidebar-link">缅邈（緬邈）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#神祇" class="sidebar-link">神祇</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#官邸" class="sidebar-link">官邸</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#倚马可待-倚馬可待" class="sidebar-link">倚马可待（倚馬可待）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#在陈绝粮" class="sidebar-link">在陈绝粮</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#搴旗" class="sidebar-link">搴旗</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#斩将搴旗-斬將搴旗" class="sidebar-link">斩将搴旗（斬將搴旗）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#圯桥-圯橋" class="sidebar-link">圯桥（圯橋）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#漂母" class="sidebar-link">漂母</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#笙歌-2" class="sidebar-link">笙歌</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#斯人" class="sidebar-link">斯人</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#凝妆-凝粧" class="sidebar-link">凝妆（凝粧）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#陌头-陌頭" class="sidebar-link">陌头（陌頭）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#缘悭" class="sidebar-link">缘悭</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#贬谪-貶謫" class="sidebar-link">贬谪（貶謫）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#鞭挞-鞭撻" class="sidebar-link">鞭挞（鞭撻）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#得陇望蜀" class="sidebar-link">得陇望蜀</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#畴曩-疇曩" class="sidebar-link">畴曩（疇曩）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#侔" class="sidebar-link">侔</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#征辟-徵辟" class="sidebar-link">征辟（徵辟）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#白首穷经-白首窮經" class="sidebar-link">白首穷经（白首窮經）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#边衅-邊釁" class="sidebar-link">边衅（邊釁）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#膏腴-2" class="sidebar-link">膏腴</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#林泉" class="sidebar-link">林泉</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#俳优-俳優" class="sidebar-link">俳优（俳優）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#秩满-秩滿" class="sidebar-link">秩满（秩滿）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#鳏居-鰥居" class="sidebar-link">鳏居（鰥居）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#云鬓-雲鬢" class="sidebar-link">云鬓（雲鬢）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#花钿-花鈿" class="sidebar-link">花钿（花鈿）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#褒衣" class="sidebar-link">褒衣</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#博带-博帶" class="sidebar-link">博带（博帶）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#穷通-窮通" class="sidebar-link">穷通（窮通）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#裔孙-裔孫" class="sidebar-link">裔孙（裔孫）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#玄元皇帝" class="sidebar-link">玄元皇帝</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#钟磬-鐘磬" class="sidebar-link">钟磬（鐘磬）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#麈尾" class="sidebar-link">麈尾</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#道箓-道籙" class="sidebar-link">道箓（道籙）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#鸿猷-鴻猷" class="sidebar-link">鸿猷（鴻猷）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#琼华-瓊華" class="sidebar-link">琼华（瓊華）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#龛子-龕子" class="sidebar-link">龛子（龕子）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#筇竹杖" class="sidebar-link">筇竹杖</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#筇竹" class="sidebar-link">筇竹</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#邛" class="sidebar-link">邛</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#蟹螯" class="sidebar-link">蟹螯</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#受俘" class="sidebar-link">受俘</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#九天" class="sidebar-link">九天</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#绛纱袍-絳紗袍" class="sidebar-link">绛纱袍（絳紗袍）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#盘螭-盤螭" class="sidebar-link">盘螭（盤螭）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#素蓄" class="sidebar-link">素蓄</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#靡不" class="sidebar-link">靡不</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#斛斯" class="sidebar-link">斛斯</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#赤墀" class="sidebar-link">赤墀</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#沁人心脾" class="sidebar-link">沁人心脾</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#媚上" class="sidebar-link">媚上</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#甲第" class="sidebar-link">甲第</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#尻子" class="sidebar-link">尻子</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#肥甘" class="sidebar-link">肥甘</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#麴车" class="sidebar-link">麴车</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#辅弼-輔弼" class="sidebar-link">辅弼（輔弼）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#晏起" class="sidebar-link">晏起</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#丹墀" class="sidebar-link">丹墀</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#改弦易辙" class="sidebar-link">改弦易辙</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#改弦-改絃" class="sidebar-link">改弦（改絃）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#易辙-易轍" class="sidebar-link">易辙（易轍）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#立仗马-立仗馬" class="sidebar-link">立仗马（立仗馬）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#京畿-2" class="sidebar-link">京畿</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#耿介" class="sidebar-link">耿介</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#趫悍" class="sidebar-link">趫悍</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#乘舆-乘輿" class="sidebar-link">乘舆（乘輿）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#娼家" class="sidebar-link">娼家</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#廊庙-廊廟" class="sidebar-link">廊庙（廊廟）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#言温室树" class="sidebar-link">言温室树</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#手敕" class="sidebar-link">手敕</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#躞蹀" class="sidebar-link">躞蹀</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#恻怆-惻愴" class="sidebar-link">恻怆（惻愴）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#寓居" class="sidebar-link">寓居</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#野逸" class="sidebar-link">野逸</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#道箓-道籙-2" class="sidebar-link">道箓（道籙）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#箓" class="sidebar-link">箓</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#睢盱" class="sidebar-link">睢盱</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#恣睢" class="sidebar-link">恣睢</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#渔樵-漁樵" class="sidebar-link">渔樵（漁樵）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#寄迹-寄蹟" class="sidebar-link">寄迹（寄蹟）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#托足" class="sidebar-link">托足</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#神祇-2" class="sidebar-link">神祇</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#飞蓬-飛蓬" class="sidebar-link">飞蓬（飛蓬）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#丹砂" class="sidebar-link">丹砂</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#徂徕-徂徠" class="sidebar-link">徂徕（徂徠）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#障蔽" class="sidebar-link">障蔽</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#云霓-雲霓" class="sidebar-link">云霓（雲霓）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#晦暝" class="sidebar-link">晦暝</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#低徊" class="sidebar-link">低徊</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#曩昔" class="sidebar-link">曩昔</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#大谬" class="sidebar-link">大谬</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#穷兵黩武-窮兵黷武" class="sidebar-link">穷兵黩武（窮兵黷武）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#不矜细行-终累大德。为山九仞-功亏一篑。" class="sidebar-link">不矜细行，终累大德。为山九仞，功亏一篑。</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#掖庭" class="sidebar-link">掖庭</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#噤若寒蝉-噤若寒蟬" class="sidebar-link">噤若寒蝉（噤若寒蟬）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#皈依" class="sidebar-link">皈依</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#讪笑-訕笑" class="sidebar-link">讪笑（訕笑）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#鸣镝-鳴鏑" class="sidebar-link">鸣镝（鳴鏑）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#新婚燕尔-新婚燕爾" class="sidebar-link">新婚燕尔（新婚燕爾）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#燕尔-燕爾" class="sidebar-link">燕尔（燕爾）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#耦耕" class="sidebar-link">耦耕</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#庶几-庶幾" class="sidebar-link">庶几（庶幾）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#易水" class="sidebar-link">易水</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#衮衮" class="sidebar-link">衮衮</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#羽檄" class="sidebar-link">羽檄</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#羽书-羽書" class="sidebar-link">羽书（羽書）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#席地幕天" class="sidebar-link">席地幕天</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#掬诚-掬誠" class="sidebar-link">掬诚（掬誠）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#饶勇-饒勇" class="sidebar-link">饶勇（饒勇）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#逸气-逸氣" class="sidebar-link">逸气（逸氣）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#虔婆" class="sidebar-link">虔婆</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#椒房" class="sidebar-link">椒房</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#廨宇" class="sidebar-link">廨宇</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#罗唣-羅唣" class="sidebar-link">罗唣（羅唣）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#坏钞-壞鈔" class="sidebar-link">坏钞（壞鈔）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#拙荆" class="sidebar-link">拙荆</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#荆妇-荆婦" class="sidebar-link">荆妇（荆婦）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#请受-請受" class="sidebar-link">请受（請受）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#承局" class="sidebar-link">承局</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#认旗-認旗" class="sidebar-link">认旗（認旗）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#心号-心號" class="sidebar-link">心号（心號）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#紫绶-紫綬" class="sidebar-link">紫绶（紫綬）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#客帐司-客帳司" class="sidebar-link">客帐司（客帳司）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#祗候" class="sidebar-link">祗候</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#端公" class="sidebar-link">端公</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#蛩" class="sidebar-link">蛩</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#杈丫-杈枒" class="sidebar-link">杈丫（杈枒）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#猗猗" class="sidebar-link">猗猗</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#泠泠" class="sidebar-link">泠泠</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#迭配" class="sidebar-link">迭配</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#髭须-髭鬚" class="sidebar-link">髭须（髭鬚）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#看觑-看覷" class="sidebar-link">看觑（看覷）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#荧惑-熒惑" class="sidebar-link">荧惑（熒惑）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#央浼" class="sidebar-link">央浼</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#肐察" class="sidebar-link">肐察</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#命蹇" class="sidebar-link">命蹇</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#仕宦" class="sidebar-link">仕宦</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#鹿角" class="sidebar-link">鹿角</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#白面书生-白面書生" class="sidebar-link">白面书生（白面書生）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#趱程-趲程" class="sidebar-link">趱程（趲程）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#清诲" class="sidebar-link">清诲</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#倥偬-倥傯" class="sidebar-link">倥偬（倥傯）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#不省" class="sidebar-link">不省</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#悒怏" class="sidebar-link">悒怏</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#揲蓍" class="sidebar-link">揲蓍</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#晋谒-晉謁" class="sidebar-link">晋谒（晉謁）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#孤穷-孤窮" class="sidebar-link">孤穷（孤窮）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#逾迈-逾邁" class="sidebar-link">逾迈（逾邁）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#钧旨-鈞旨" class="sidebar-link">钧旨（鈞旨）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#姑恕" class="sidebar-link">姑恕</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#浼" class="sidebar-link">浼</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#疏不间亲-疏不間親" class="sidebar-link">疏不间亲（疏不間親）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#无复-無復" class="sidebar-link">无复（無復）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#商飙-商飆" class="sidebar-link">商飙（商飆）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#聒聒" class="sidebar-link">聒聒</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#宁谧-寧謐" class="sidebar-link">宁谧（寧謐）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#城闉" class="sidebar-link">城闉</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#契阔-契闊" class="sidebar-link">契阔（契闊）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#珍馐-珍饈" class="sidebar-link">珍馐（珍饈）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#抗礼-抗禮" class="sidebar-link">抗礼（抗禮）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#廓清" class="sidebar-link">廓清</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#岁杪" class="sidebar-link">岁杪</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#霓裳" class="sidebar-link">霓裳</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#羸弱" class="sidebar-link">羸弱</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#入幕" class="sidebar-link">入幕</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#幕僚-2" class="sidebar-link">幕僚</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#肩舆-肩輿" class="sidebar-link">肩舆（肩輿）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#赐酺-賜酺" class="sidebar-link">赐酺（賜酺）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#肝郁-肝鬱" class="sidebar-link">肝郁（肝鬱）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#壅塞" class="sidebar-link">壅塞</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#姘居" class="sidebar-link">姘居</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#姘" class="sidebar-link">姘</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#忱" class="sidebar-link">忱</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#要津" class="sidebar-link">要津</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#椎心泣血" class="sidebar-link">椎心泣血</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#椎心" class="sidebar-link">椎心</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#卑辞-卑辭" class="sidebar-link">卑辞（卑辭）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#怨望" class="sidebar-link">怨望</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#枯槁" class="sidebar-link">枯槁</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#警策" class="sidebar-link">警策</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#刑余-刑餘" class="sidebar-link">刑余（刑餘）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#扬袂-揚袂" class="sidebar-link">扬袂（揚袂）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#世掌丝纶-世掌絲綸" class="sidebar-link">世掌丝纶（世掌絲綸）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#自怨自艾" class="sidebar-link">自怨自艾</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#簿书-簿書" class="sidebar-link">簿书（簿書）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#至性" class="sidebar-link">至性</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#翰墨-2" class="sidebar-link">翰墨</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#金步摇" class="sidebar-link">金步摇</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#玉条脱-玉條脱" class="sidebar-link">玉条脱（玉條脱）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#盘螭-盤螭-2" class="sidebar-link">盘螭（盤螭）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#寒伧-寒傖-2" class="sidebar-link">寒伧（寒傖）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#食客" class="sidebar-link">食客</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#弹铗-彈鋏" class="sidebar-link">弹铗（彈鋏）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#夷门-夷門" class="sidebar-link">夷门（夷門）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#啸傲-嘯傲" class="sidebar-link">啸傲（嘯傲）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#不啻" class="sidebar-link">不啻</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#诚笃-誠篤" class="sidebar-link">诚笃（誠篤）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#蹭蹬" class="sidebar-link">蹭蹬</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#思忖" class="sidebar-link">思忖</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#徂cu" class="sidebar-link">徂cú</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#含饴弄孙-含飴弄孫" class="sidebar-link">含饴弄孙（含飴弄孫）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#饴糖-飴糖" class="sidebar-link">饴糖（飴糖）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#恭谨-恭謹" class="sidebar-link">恭谨（恭謹）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#述职-述職" class="sidebar-link">述职（述職）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#颔首-頷首" class="sidebar-link">颔首（頷首）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#米珠薪桂" class="sidebar-link">米珠薪桂</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#秉钺-秉鉞" class="sidebar-link">秉钺（秉鉞）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#叩角" class="sidebar-link">叩角</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#通家" class="sidebar-link">通家</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#碑碣" class="sidebar-link">碑碣</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#孑遗-孑遺" class="sidebar-link">孑遗（孑遺）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#祖茔-祖塋" class="sidebar-link">祖茔（祖塋）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#师心自用-師心自用" class="sidebar-link">师心自用（師心自用）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#桃偶" class="sidebar-link">桃偶</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#梗泛" class="sidebar-link">梗泛</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#相浼" class="sidebar-link">相浼</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#嗫嚅" class="sidebar-link">嗫嚅</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#訾议" class="sidebar-link">訾议</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#无可訾议" class="sidebar-link">无可訾议</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#姣好" class="sidebar-link">姣好</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#日祉" class="sidebar-link">日祉</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#新婚燕尔" class="sidebar-link">新婚燕尔</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#韵脚" class="sidebar-link">韵脚</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#弹铗-彈鋏-2" class="sidebar-link">弹铗（彈鋏）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#谦光自抑" class="sidebar-link">谦光自抑</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#涵泳" class="sidebar-link">涵泳</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#沛然" class="sidebar-link">沛然</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#谢忱-謝忱" class="sidebar-link">谢忱（謝忱）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#铭感-銘感" class="sidebar-link">铭感（銘感）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#峥嵘-峥嶸" class="sidebar-link">峥嵘（峥嶸）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#拗救" class="sidebar-link">拗救</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#拗句" class="sidebar-link">拗句</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#崒嵂" class="sidebar-link">崒嵂</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#勒掯-百度汉语" class="sidebar-link">勒掯 - 百度汉语</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#诽诽-百度汉语" class="sidebar-link">诽诽 - 百度汉语</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#鳏夫-鰥夫" class="sidebar-link">鳏夫（鰥夫）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#归宗-歸宗" class="sidebar-link">归宗（歸宗）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#文修武偃" class="sidebar-link">文修武偃</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#物阜民安" class="sidebar-link">物阜民安</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#觐礼-覲禮" class="sidebar-link">觐礼（覲禮）</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#户牖" class="sidebar-link">户牖</a></li><li class="sidebar-sub-header level2"><a href="/pages/6e768f/#栖遑-棲遑" class="sidebar-link">栖遑（棲遑）</a></li></ul></li><li><a href="/pages/02ee57/" class="sidebar-link">古籍</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header level2"><a href="/pages/02ee57/#中国历史" class="sidebar-link">中国历史</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header level3"><a href="/pages/02ee57/#上古" class="sidebar-link">上古</a></li><li class="sidebar-sub-header level3"><a href="/pages/02ee57/#周" class="sidebar-link">周</a></li><li class="sidebar-sub-header level3"><a href="/pages/02ee57/#汉朝" class="sidebar-link">汉朝</a></li></ul></li><li class="sidebar-sub-header level2"><a href="/pages/02ee57/#游侠刺客" class="sidebar-link">游侠刺客</a></li><li class="sidebar-sub-header level2"><a href="/pages/02ee57/#名人总" class="sidebar-link">名人总</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header level3"><a href="/pages/02ee57/#近代" class="sidebar-link">近代</a></li><li class="sidebar-sub-header level3"><a href="/pages/02ee57/#民国前" class="sidebar-link">民国前</a></li><li class="sidebar-sub-header level3"><a href="/pages/02ee57/#民国期" class="sidebar-link">民国期</a></li></ul></li><li class="sidebar-sub-header level2"><a href="/pages/02ee57/#京剧传统戏" class="sidebar-link">京剧传统戏</a></li><li class="sidebar-sub-header level2"><a href="/pages/02ee57/#古代地名总" class="sidebar-link">古代地名总</a></li><li class="sidebar-sub-header level2"><a href="/pages/02ee57/#中国名山总" class="sidebar-link">中国名山总</a></li><li class="sidebar-sub-header level2"><a href="/pages/02ee57/#中国古代民间四大爱情故事" class="sidebar-link">中国古代民间四大爱情故事</a></li><li class="sidebar-sub-header level2"><a href="/pages/02ee57/#凌烟阁二十四功臣" class="sidebar-link">凌烟阁二十四功臣</a></li><li class="sidebar-sub-header level2"><a href="/pages/02ee57/#三山" class="sidebar-link">三山</a></li><li class="sidebar-sub-header level2"><a href="/pages/02ee57/#五岳" class="sidebar-link">五岳</a></li><li class="sidebar-sub-header level2"><a href="/pages/02ee57/#竹林七贤" class="sidebar-link">竹林七贤</a></li><li class="sidebar-sub-header level2"><a href="/pages/02ee57/#建安七子" class="sidebar-link">建安七子</a></li><li class="sidebar-sub-header level2"><a href="/pages/02ee57/#泰山四大奇观" class="sidebar-link">泰山四大奇观</a></li><li class="sidebar-sub-header level2"><a href="/pages/02ee57/#诸子百家人物" class="sidebar-link">诸子百家人物</a></li><li class="sidebar-sub-header level2"><a href="/pages/02ee57/#初秋五霸人物" class="sidebar-link">初秋五霸人物</a></li><li class="sidebar-sub-header level2"><a href="/pages/02ee57/#战国七雄人物" class="sidebar-link">战国七雄人物</a></li><li class="sidebar-sub-header level2"><a href="/pages/02ee57/#古代十大音乐家" class="sidebar-link">古代十大音乐家</a></li><li class="sidebar-sub-header level2"><a href="/pages/02ee57/#中华十大谋士" class="sidebar-link">中华十大谋士</a></li><li class="sidebar-sub-header level2"><a href="/pages/02ee57/#中国神话人物总" class="sidebar-link">中国神话人物总</a></li><li class="sidebar-sub-header level2"><a href="/pages/02ee57/#古代神话中的动物总" class="sidebar-link">古代神话中的动物总</a></li><li class="sidebar-sub-header level2"><a href="/pages/02ee57/#四大神兽" class="sidebar-link">四大神兽</a></li><li class="sidebar-sub-header level2"><a href="/pages/02ee57/#十大妖帅" class="sidebar-link">十大妖帅</a></li><li class="sidebar-sub-header level2"><a href="/pages/02ee57/#妖圣" class="sidebar-link">妖圣</a></li><li class="sidebar-sub-header level2"><a href="/pages/02ee57/#四凶" class="sidebar-link">四凶</a></li><li class="sidebar-sub-header level2"><a href="/pages/02ee57/#妖师" class="sidebar-link">妖师</a></li><li class="sidebar-sub-header level2"><a href="/pages/02ee57/#妖皇" class="sidebar-link">妖皇</a></li><li class="sidebar-sub-header level2"><a href="/pages/02ee57/#天帝" class="sidebar-link">天帝</a></li><li class="sidebar-sub-header level2"><a href="/pages/02ee57/#上古十大正神" class="sidebar-link">上古十大正神</a></li><li class="sidebar-sub-header level2"><a href="/pages/02ee57/#中国神话传说女神" class="sidebar-link">中国神话传说女神</a></li><li class="sidebar-sub-header level2"><a href="/pages/02ee57/#五行神" class="sidebar-link">五行神</a></li><li class="sidebar-sub-header level2"><a href="/pages/02ee57/#十二祖巫" class="sidebar-link">十二祖巫</a></li><li class="sidebar-sub-header level2"><a href="/pages/02ee57/#中国四季神" class="sidebar-link">中国四季神</a></li><li class="sidebar-sub-header level2"><a href="/pages/02ee57/#五帝" class="sidebar-link">五帝</a></li><li class="sidebar-sub-header level2"><a href="/pages/02ee57/#四时八节" class="sidebar-link">四时八节</a></li><li class="sidebar-sub-header level2"><a href="/pages/02ee57/#中国古代二十四孝" class="sidebar-link">中国古代二十四孝</a></li><li class="sidebar-sub-header level2"><a href="/pages/02ee57/#上古神器" class="sidebar-link">上古神器</a></li><li class="sidebar-sub-header level2"><a href="/pages/02ee57/#中国古代十大名剑" class="sidebar-link">中国古代十大名剑</a></li><li class="sidebar-sub-header level2"><a href="/pages/02ee57/#中国古代名剑总" class="sidebar-link">中国古代名剑总</a></li><li class="sidebar-sub-header level2"><a href="/pages/02ee57/#上古神兽总" class="sidebar-link">上古神兽总</a></li><li class="sidebar-sub-header level2"><a href="/pages/02ee57/#龙生九子" class="sidebar-link">龙生九子</a></li><li class="sidebar-sub-header level2"><a href="/pages/02ee57/#三清" class="sidebar-link">三清</a></li><li class="sidebar-sub-header level2"><a href="/pages/02ee57/#八仙" class="sidebar-link">八仙</a></li><li class="sidebar-sub-header level2"><a href="/pages/02ee57/#龙王" class="sidebar-link">龙王</a></li><li class="sidebar-sub-header level2"><a href="/pages/02ee57/#阴曹地府" class="sidebar-link">阴曹地府</a></li><li class="sidebar-sub-header level2"><a href="/pages/02ee57/#四大判官" class="sidebar-link">四大判官</a></li><li class="sidebar-sub-header level2"><a href="/pages/02ee57/#中国十大妖兽" class="sidebar-link">中国十大妖兽</a></li><li class="sidebar-sub-header level2"><a href="/pages/02ee57/#中国百鬼图鉴" class="sidebar-link">中国百鬼图鉴</a></li><li class="sidebar-sub-header level2"><a href="/pages/02ee57/#十大鬼差" class="sidebar-link">十大鬼差</a></li><li class="sidebar-sub-header level2"><a href="/pages/02ee57/#山海经十大神兽" class="sidebar-link">山海经十大神兽</a></li><li class="sidebar-sub-header level2"><a href="/pages/02ee57/#五大神尸" class="sidebar-link">五大神尸</a></li><li class="sidebar-sub-header level2"><a href="/pages/02ee57/#二十四小鬼" class="sidebar-link">二十四小鬼</a></li></ul></li><li><section class="sidebar-group collapsable is-sub-group depth-1"><p class="sidebar-heading"><span>文章</span> <span class="arrow right"></span></p> <!----></section></li></ul></section></li></ul> </aside> <div><main class="page"><div class="theme-vdoing-wrapper "><div class="articleInfo-wrap" data-v-f35e7870><div class="articleInfo" data-v-f35e7870><ul class="breadcrumbs" data-v-f35e7870><li data-v-f35e7870><a href="/" title="首页" class="iconfont icon-home router-link-active" data-v-f35e7870></a></li> <li data-v-f35e7870><a href="/categories/?category=%E5%85%B6%E4%BB%96" title="分类" data-v-f35e7870>其他</a></li><li data-v-f35e7870><a href="/categories/?category=%E8%AF%AD%E5%BD%95" title="分类" data-v-f35e7870>语录</a></li></ul> <div class="info" data-v-f35e7870><div title="作者" class="author iconfont icon-touxiang" data-v-f35e7870><a href="javascript:;" data-v-f35e7870>ghgeng</a></div> <div title="创建时间" class="date iconfont icon-riqi" data-v-f35e7870><a href="javascript:;" data-v-f35e7870>2022-10-29</a></div> <!----></div></div></div> <!----> <div class="content-wrapper"><div class="right-menu-wrapper"><div class="right-menu-margin"><div class="right-menu-title">目录</div> <div class="right-menu-content"></div></div></div> <h1><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAABKFJREFUSA3tVl1oFVcQnrMbrak3QUgkya1akpJYcrUtIqW1JvFBE9LiQ5v6JmJpolbMg32rVrhgoYK0QiMY6i9Y6EMaW5D+xFJaTYItIuK2Kr3+BJNwkxBj05sQY3b3nM6cs2dv9t7NT/vQJw/sndk5M/PNzJkzewGerP+pAmy+ON8lLzUJgA8ZYxYIYZmGYRnctDaWvJJAmTtfP1pvXsBCCPP8QFcCaRkZYACgDZFO4stNIcBCajEOlmmC9XpJ9bAGCaPaPmzPl32dvLSVu3BWCTQs0XQQ6g0DYgwLIoAZbBCdW/i+781o1VVlm/410mw4h06Y7bIPHNyWDyL4FHkX03Q8SrzNhZTZriieckWt7cL6MM85YcLpsi/7O9/iXFT6MswI0DmmpkSaJ0qLxFIm3+i1THHB3zmBH3PYx9CcykcLOeQVVa7QtdxTgQgEleX2AjHYfwA+2ddV77ruGoJUbhGDI09YSNXyMpUt5ylOzxgbUmtOp7NmbNt8v3arjTBfYELmLUV+M+nSawNNAUqpT3ClJWg5I3BLT+cGW/DXNGCa6tx1aakCGEigArTn4TDIPdrXXYKCZNrHLMCOEPvHBlLQ99s9eHB7EB6NTki73CVPQ2F5MSx/uRQixfmq7rK0wYD8w8E905bnPDfwoWs/rfv93NWN/ZfvwsLIU7A09gxECyISeGJkHAau98L97tuw7NXnoPyNF8FcYGLGKsOs0mN3OEyec9esGW/ZEl945dTP34wlR2FZVQWU1q0Cw8Tr7p+hgLLNL0FPxx/Q35mA8aEUrH6nCgwEl0tn7wUiZYJnNRh6DK4UH/k0lfyrsBKdPVv/AriGIQcEDQZ65LBAGe2Rzui9Ybjz7XUppz1/uKBbyVPGkN3ZAeC6hr0x7Nr38N5+EqkoOm17xpoqR9ohQF55ERSvr4Dkr3chNfC3DMzGJlNBElW8w9nsGQvhNGIzDkXzCg8cLK951xHsFBlTJspJNi3ZFIMF2AeDV3q8DNOB+YHi6QTrChDIWDBRi5U5f+ZMfJLu3ccrqxtdxk4SKH336LFxSmkqefwU5T8fhdSdQf9IVKD6aNiwI/hnmcAZ91isYMJIaCUCx9W098+LgruikeTqzqqxKPUwqJyCPJiyemVVZBOijDGjD38Os0jOiSPL1z3SPjXNANbiNPXAdzTfukjjuknNBbyz3nwgTd3AVFqUJ5hpHlq9MveLnWwttUfoygBmvVjuikxND3znrhsELnZk7k+OjIGxeNEkomyLVta0xxn+HZhjBc4YZ/AFjHjz9u3xRZl2BN4aq9nFwWh16IrQ1aHHEd3j1+4/dB9OtH4e29A2H1DyHQRmOSfQZ1Fy7MHBTGB6J/Djq6p3OxyO2cB+4Car7v/o3GXgfAkj23+x9ID1Teoamo/SXcbvSf2PX7Vc8DdCmE1vN9di+32P9/5YR3vLnhCVGUWBjEkr3yh4H8v9CzmsbdhzOKzsJKM90iFdaTMjRPhGVsakRvOaRidljo6H6G7j+ctrJpsP+4COhDIl0La2+FS4+5mlocBaXY5QnGZysIBYoeSsl5qQzrSj/cgNrfuEzlWBfwA+EjrZyWUvpAAAAABJRU5ErkJggg==">记录<!----></h1> <!----> <div class="theme-vdoing-content content__default"><h2 id="语录"><a href="#语录" class="header-anchor">#</a> 语录 <a href="https://hanyu.baidu.com/sentence/search?wd=%E8%AF%AD%E5%BD%95&amp;ret_type=sentence-multi" target="_blank" rel="noopener noreferrer">🌍<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></h2> <div class="yulu_wrap"><div class="yulu_box"><div class="yulu_left"></div> <div class="yulu_center"><span>2023-x-xx · x:xx</span></div> <div class="yulu_right"><p class="yulu_pdiv">
+      只需要笑一笑
+      </p></div></div> <div class="yulu_box"><div class="yulu_left"><p class="yulu_pdiv">
+      每天都开心呀！
+      </p></div> <div class="yulu_center"><span>2023-x-xx · x:xx</span></div> <div class="yulu_right"></div></div> <div class="yulu_box"><div class="yulu_left"></div> <div class="yulu_center"><span>2023-12-1 · 8:49</span></div> <div class="yulu_right"><p class="yulu_pdiv">
+      要想获得成功，就必须一直寻找，只有这样，才有机会。不要气馁，就算得不到成功，至少我们已经拥有了比成功还要有价值的经验。
+      </p></div></div> <div class="yulu_box"><div class="yulu_left"><p class="yulu_pdiv">
+      一个成熟的人，他坚信长远的目标会收获更大的果实，不会被一时的困境所困扰；
+      同时，他也清楚，一切机会都藏在行动中，踏实践行，才可能让长期主义有实现的可能。
+      </p></div> <div class="yulu_center"><span>2023-12-1 · 8:47</span></div> <div class="yulu_right"></div></div> <div class="yulu_box"><div class="yulu_left"></div> <div class="yulu_center"><span>2023-12-1 · 8:46</span></div> <div class="yulu_right"><p class="yulu_pdiv">
+      一个人把该做的事做了、该出的力出了，成功就在其中，幸福亦在其中。
+      </p></div></div> <div class="yulu_box"><div class="yulu_left"><p class="yulu_pdiv">
+        陈群带来了蒋介石的口谕，要请杜月笙去南京面晤。
+        这个消息真是让一人欢喜二人愁啊！杜月笙自然受宠若惊，激动不已，而他的两位兄弟可就高兴不起来了。 
+        黄金荣还好一点，他已经60岁了，早已宣称“不问世事”，退休在家养老了，所以这个风头没他的份，他也懒得去争了。
+        再说了，蒋介石是他的门生，他去不去南京，蒋介石跟他的关系也不会差。
+        而张啸林就不一样了，他一向争强好胜，性子又冲动，见杜月笙抢了自己的风头，自然很有怨言。
+        杜月笙一向会做人，风头要出，兄弟也不能得罪。
+        他就问陈群：“陈先生，不能三兄弟一道去吗？”陈群也很会审时度势，就故作为难地叹了口气，说道：“总司令也想请三位都去呢。只是考虑到黄老板辈分高，还是蒋先生的师傅；张老板事情多，抽不开身；杜老板是两位的兄弟，年纪轻，管的事情少一些，就说请他跑跑路啦！”陈群的一席话，令张啸林和黄金荣都找回了脸面，也就不好再说什么了。
+      </p></div> <div class="yulu_center"><span>2023-12-1 · 8:42</span></div> <div class="yulu_right"></div></div> <div class="yulu_box"><div class="yulu_left"></div> <div class="yulu_center"><span>2023-12-1 · 8:39</span></div> <div class="yulu_right"><p class="yulu_pdiv">
+      金荣忠党爱国，老成持重，唯以法租界巡捕房职司关系，不便对外公开露面，声势虽大，仅可暗中加以助力。
+      张啸林辄喜结交军阀，崇慕权势，虽亦能深明大义，复以性情刚烈易于树敌。
+      杜月笙虽出身寒微，时时刻刻不忘奋发向上，谦光自抑，且正值年富力强，颇具国家民族思想。
+      </p></div></div> <div class="yulu_box"><div class="yulu_left"><p class="yulu_pdiv">
+      小王子遇到狐狸，狐狸说不驯养就不能和他一起玩，小王子说什么是驯养；狐狸说：驯养就是建立感情联系，没有驯养之前，
+      狐狸是万千狐狸中的一个，驯养之后就是小王子眼中的唯一;
+      </p></div> <div class="yulu_center"><span>2023-12-1 · 8:38</span></div> <div class="yulu_right"></div></div> <div class="yulu_box"><div class="yulu_left"></div> <div class="yulu_center"><span>2023-11-22 · 14:20</span></div> <div class="yulu_right"><p class="yulu_pdiv"><a href="/pages/4fc6ba/">
+        人生如逆旅，有苦有甜，有失有得，需要不断地磨炼自己的心志，调整自己的心态，才能在这光怪陆离的人世间，找到自己的归属。
+       </a></p></div></div> <div class="yulu_box"><div class="yulu_left"><p class="yulu_pdiv">
+    “如果你和某个人在一起，能让你的情绪稳定让你敞开心扉，让你更自信更爱笑，更有好奇心去探索这个世界，那这个人就值得你去爱。双向奔赴的爱情，是当你想奋不顾身地为一个人的时候，对方恰好也在热烈的回应你。”<br>
+    真正的爱情决对不是权衡利弊之后，觉得你适合过日子，而是因为你是你。喜欢一个人是会愿意为她做出牺牲的，他会照顾你的情绪，在意你的感受，将你的开心做为“第一优先项”。<br>
+    《老友记》中的Monica和Chandler之间的爱恋，是彼此的心照不宣，是无论你做什么，都支持你的选择，互相扶持，彼此进步，没有什么放不放得下的原则，只有爱与不爱。<br>
+    罗翔老师曾说:要去爱具体的人，不要爱抽象的人，真正的爱情一定是具体的爱，要爱生活，不要爱生活的意义。<br>
+    真正爱你的人不会若即若离，忽远忽近，忽冷忽热，而是放下所有的伪装，向你展示最真挚的情感。<br>
+    不要觉得是你不够好，他太优秀等等就卑微到尘埃里，爱是相互的妥协，你一味地迁就早已经注定了这段关系的结局。<br>
+    因为任何一段关系里，一定是能够舒展最真实的自己，是无论发生什么都最坚定的选择与陪伴。<br>
+    愿我们都能成为那个偏爱与例外，我们只要做真实的自己就好!愿所有女生都能找到那个满心满眼都是你，双向温暖，只为你而来的Ta      </p><br></div> <div class="yulu_center"><span>2023-11-22 · 10:34</span></div> <div class="yulu_right"></div></div> <div class="yulu_box"><div class="yulu_left"></div> <div class="yulu_center"><span>2023-11-22 · 10:33</span></div> <div class="yulu_right"><p class="yulu_pdiv">
+      和对方说的话<br>
+      #女性成长 #恋爱关系 #情侣 #爱情 #女性成长[话题]# #努力变优秀 #情感语录 #聊聊爱情吧<br>
+      1、要在一起就要好好在一起，我不是三分热度，希望你也不是，现在的恋爱都太快了，在一起很快，分开也很快，我希望你想和我在一起是经过深思熟虑的。<br>
+      2、如果我们在一起，那希望你不要再有什么红蓝知己，以前你什么样我管不着，但以后，你的世界里只能有我一个人。<br>
+      3、一定要记得彼此的生日、重要的节日和两个人之间比较重要的纪念日。<br>
+      4、不要忽冷忽热，消息不回，如果有事情在忙，那就提前说一下预计忙多久，忙完看到消息后回复一下，不然我会担心。<br>
+      5、我不会把你当我的长期饭票，付出多少，我也会付出同等的钱和爱给你，我不希望谁占谁的便宜，我只知道，我们是茫茫人海里的两个人，走在一起相互取暖<br>
+      6、人与人之间要忠诚，不要欺骗我，跟异性朋友保持距离，遇到我之前我管不着，但往后心里只能有我一个人，不要和前女友有藕断丝连的关系。不要越界，对别人我可以不管，但对你我做不到。因为我的心很小。在一起就好好相处，不要挑战我的底线。<br>
+      7、没有女生不喜欢小惊喜，我懂你赚钱的不易，所以有些节日没必要过，只过重要的日子即可，当然我们可以聊聊对方的消费观。<br>
+      8、我不会去查你的手机，不会去看你和谁聊天，但要明白，我不是不在乎，只是如果你真的不爱我，我这样做也没意义，如果你爱我，那我会选择相信你，只希望，你能对得起我给你的信任。<br>
+      9、如果这段感情真的无法进行下去，你就大大方方告诉我，不必慢慢敷衍，让我慢慢退场。<br>
+      10、希望恋爱新鲜感消失时，我们不是选择放弃这段感情，而是想办法去创造新的体验，而不是选择放弃。#今日文案<br></p></div></div> <div class="yulu_box"><div class="yulu_left"><p class="yulu_pdiv">
+        林桂生也是个聪明人，他知道这次是非得她亲自出马不可了。听说何老太太信佛，她灵机一动，从自己的保险柜里取出一尊精美绝伦的金观音，还把黄金荣敲诈来的一个竹节罗汉拿了出来，精心地包装之后，又带上几根金条，坐着车就往何公馆奔去。 何老太太一看见“观音”与“罗汉”这两件稀世珍宝，还听说是送给自己的见面礼，开心地两眼眯成了一条线。<br>
+        林桂生趁机套起近乎来：“何妈妈，我一直都想来看您，可一直没有合适的机会。刚巧不久前我得到了这两样宝贝，放在我那儿也没什么用，所以就想着拿来孝敬您了。何妈妈是个信佛的人，这两样宝贝放在您这里才是它们最好的归宿。”<br>
+        何老太太捧着这两样宝贝，爱不释手，高兴地说道说：“好，好！黄夫人，您这也是有佛缘啊，佛主一定会保佑您的！” 林桂生又拿起手帕煽起情来，悲伤地说道：“何妈妈，我从小就没有娘，看到别的孩子有父母疼着，就羡慕得不得了。何妈妈，您不嫌弃的话，就认我做干女儿吧！”<br> 
+        何老太太开始还想拒绝，可是看着眼前的这两样宝贝，再加上林桂生那一张嘴，何妈妈长、何妈妈短的，叫得老太太都不好意思拒绝了，没过几个小时，老太太便认了这个干女儿。<br>
+        后来，林桂生提出放人，老太太一口答应下来，可是，何丰林带回话来：“黄金荣这条命可以暂时保住，但要放人，需要卢永祥的批准。”<br> 
+        林桂生一听，就叫张啸林快马加鞭赶赴杭州，见卢永祥去了。<br></p></div> <div class="yulu_center"><span>2023-11-17 · 12:57</span></div> <div class="yulu_right"></div></div> <div class="yulu_box"><div class="yulu_left"></div> <div class="yulu_center"><span>2023-11-11 · 16:19</span></div> <div class="yulu_right"><p class="yulu_pdiv">
+      长大了，总有那么一两次，你会为重视的人奔跑，因为是对的人，走不真的来不及。
+      </p></div></div> <div class="yulu_box"><div class="yulu_left"><p class="yulu_pdiv">
+      人终将为其年少不可得之物困扰一生，但也会因一时之景解开一生困惑。
+      </p></div> <div class="yulu_center"><span>2023-11-9 · 9:15</span></div> <div class="yulu_right"></div></div> <div class="yulu_box"><div class="yulu_left"></div> <div class="yulu_center"><span>2023-11-8 · 17:52</span></div> <div class="yulu_right"><p class="yulu_pdiv">
+      小学一走就是一天，初中一走就是一周，高中一走就是一个月，大学一走就是半年，打工一走就是一年，人生一走就是一辈子；
+      到底什么样的终点，才配得上这一路的颠沛流离！回家前的喜悦，回家后的无聊，<br>
+      离家时的不舍，离家后的想念，终是故乡的阑珊灯火，印不出远方的星辰闪烁。<br>
+      曾经一切的一切，现在回头看看，那些难以跨过的山，其实都在不知不觉中跨过了，<br>
+      从前以为不能接受的，最后也在时间的磨合下，慢慢接受了，生活充满了想象，遗憾也不过是常态，<br>
+      其实人生，就是一个享受过程的过程，无论当初做什么选择都会后悔，但同时大家都心知肚明，<br>
+      我们无法站在现在的角度，去批判当时的自己，就算时间重来一次，<br>
+      以当时的心智和阅历，还是会做出同样的选择，<br>
+      那么，故事的结局还重要吗？钱没了可以再挣，工作丢了可以再找，朋友没了也可以再交，爱情没了可以再遇，<br>
+      真正的强大不是忘记，而是接受，接受分道扬镳，接受世事无常，接受孤独挫败，接受突如其来的无力感，<br>
+      接受困惑，不安，焦虑和遗憾，你只需要平静下来，把该做的事情做好，把该走的路都走完，生命那么短暂，<br>
+      没有所谓的标准答案和完美的人生，回头看，轻舟已过万重山，接下来，我们一定会迎来新的光明！<br></p></div></div> <div class="yulu_box"><div class="yulu_left"><p class="yulu_pdiv">
+      今天是xx年xx月周x，天气晴朗，今天xx你父母在这里，以后也会是我的父母，我今天来就是想和你说几句话，
+      刚开始见你的时候，就感觉到你是个踏实的姑娘，可能是陪我走过下半生的人，在慢慢接触的过程中给我中特别的感觉，我更加坚定
+      你就是我要等的人，等我真正爱上你，才知道什么是等待，等我真正爱上你，才知道什么事牵挂，等我真正爱上你，才知道什么是责任；
+      (
+      是一种美好向往的感觉，要说什么感觉的话，从外表来说身材好，肤白貌美很漂亮，从内在来说，是一个很懂事的姑娘，
+      再从生活中说，你之前告诉我生活中很定会吵架，但我不和你吵只会哭，我怎么会忍心让你哭呢
+      )，
+      我们从交往一个月到一年，从陌生到相识再到相知，从一开始的害羞到不知所措，到后来随意到毫不伪装，未来的路，还有很长很长；
+      虽然我们交往不到几个月，但是我们从陌生到相识再到相知，未来的路还有很长很长；
+      今天我想说的是，我想和你携手，一起从浪漫的鲜花西餐，走到日常的柴米油盐；从小打小闹走到心照不宣，谈一场细水长流的恋爱；
+      所以你愿意嘛？
+      </p></div> <div class="yulu_center"><span>2023-11-7 · 8:47</span></div> <div class="yulu_right"></div></div> <div class="yulu_box"><div class="yulu_left"></div> <div class="yulu_center"><span>2023-11-6 · 17:05</span></div> <div class="yulu_right"><p class="yulu_pdiv">
+        愿爱洋溢在你甜蜜的生活中，让以后的每一个日子，都象今日这般辉煌喜悦！
+      </p></div></div> <div class="yulu_box"><div class="yulu_left"><p class="yulu_pdiv">
+      古人哲学<br>
+      自由不是想做什么就做什么，而是你不想做什么，就可以不做什么。
+      </p></div> <div class="yulu_center"><span>2023-11-3 · 10:15</span></div> <div class="yulu_right"></div></div> <div class="yulu_box"><div class="yulu_left"></div> <div class="yulu_center"><span>2023-11-3 · 10:05</span></div> <div class="yulu_right"><p class="yulu_pdiv">
+      愿时光静美<br>
+      一个人使劲踮起脚尖靠近太阳的时候，全世界都挡不住她的阳光。
+      </p></div></div> <div class="yulu_box"><div class="yulu_left"><p class="yulu_pdiv">
+      愿时光静美<br>
+      人很难在青春时认识青春，只有走过了青春，才能认识青春。
+      </p></div> <div class="yulu_center"><span>2023-11-3 · 10:03</span></div> <div class="yulu_right"></div></div> <div class="yulu_box"><div class="yulu_left"></div> <div class="yulu_center"><span>2023-11-3 · 10:01</span></div> <div class="yulu_right"><p class="yulu_pdiv">
+      愿时光静美<br>
+      内心世界存在的必要，就是为了抵抗外在世界的不合理。
+      </p></div></div> <div class="yulu_box"><div class="yulu_left"><p class="yulu_pdiv">
+      静享美好岁月！<br>
+      所谓强大，是任何事物都无法破坏你的内心的平和，你需要接收目前不完美的自己，按自己节奏缓步前行。
+      </p></div> <div class="yulu_center"><span>2023-11-3 · 09:31</span></div> <div class="yulu_right"></div></div> <div class="yulu_box"><div class="yulu_left"></div> <div class="yulu_center"><span>2023-10-15 · 10:52</span></div> <div class="yulu_right"><p class="yulu_pdiv">
+      很多人都会有类似的感受，在经历一次人生危机的时候，一切都仿佛凸透镜  
+      一样，折射出人生百态。有的人坚定不移地支持你，有的人冒着自己受伤害的风  
+      险帮助你，而有的人在经历心理挣扎后退却，有的人也在这个时候作出了伤害你    
+      的决定。官司，就像一块试金石，不经意间，把人间万象顷刻检测了一遍。  
+      </p></div></div> <div class="yulu_box"><div class="yulu_left"><p class="yulu_pdiv">
+      家用车预算100万以上就买卫士110，预算70万就买宝马X5，预算50万就买奔驰E级，预算40万就买奥迪A6L，预算30万就买宝马3系，预算28万就买奥迪A4L，预算25万就买凯迪拉克CT5，预算24万就MODel 3，预算22万就买比亚迪汉,预算20万就买别克君越，预算18万就买别克昂科威，预算15万就买宋PLUS，预算13万就买吉利星瑞，预算11万就买秦PLUS，预算9万就买大众宝来，预算7万就买吉利帝豪，预算五万就买五菱宏光S，预算三万多买五菱宏光MINI EV，预算2万就买二手车，预算1万就买摩托车，预算一千就买电动车，预算500就买自行车，预算五块就等坐公交，预算1块就买俩馒头走路。  
+      </p></div> <div class="yulu_center"><span>2023-10-15 · 10:51</span></div> <div class="yulu_right"></div></div> <div class="yulu_box"><div class="yulu_left"></div> <div class="yulu_center"><span>2023-10-15 · 10:50</span></div> <div class="yulu_right"><p class="yulu_pdiv">
+      现场的各位高堂尊师亲朋挚友在上，在此新婚之日承蒙诸位厚爱莅临于此，首先我要向各位的到来表示一份最真诚的感谢和最热烈的欢迎，感谢各位谢谢。此情此景啊，我的内心真的是喜忧参半，喜得是得此贤妻美眷共谱郎情妾曲，忧的是岁月已逝双亲鬓发已白，常思过往若无父母何以有今日，若无高朋又何以有荣生，天地有偿周而复始见证峥嵘岁月，不忘乌鸟私情之喻，见证感恩戴德之心，亦愿父母康健早享含饴弄孙之乐，也愿嘉宾宏达，再树欣欣向荣之业，今日招待不周，愿请诸位海涵，恭谨拜谢，谢谢诸位，谢谢！
+      </p></div></div> <div class="yulu_box"><div class="yulu_left"><p class="yulu_pdiv">
+      余华说：&quot;精神内耗，说白了就是自己心里的戏太多了。言未出，结局已演千百遍；身未动，心中已过万重山；行未果，假象苦难愁不展；事已毕，过往扔在脑中演。&quot;在现代社会中，人们往往感到焦虑、不安和迷茫，这些情绪会让人感到疲累和无力。而这种内耗的原因，可能是因为我们对自己的期望过高，或者是因为我们无法接受自己的不足。要走出精神内耗，我们需要理解、接受、放下和改变。理解自己的内心，接受自己的不足，并且放下那些无法改变的事情，才能够真正走出内耗的困境。同时，我们还需要积极地去改变那些可以改变的事情，从而摆脱内耗的束缚。
+      </p></div> <div class="yulu_center"><span>2023-9-24 · 23:00</span></div> <div class="yulu_right"></div></div> <div class="yulu_box"><div class="yulu_left"></div> <div class="yulu_center"><span>2023-10-15 · 10:46</span></div> <div class="yulu_right"><p class="yulu_pdiv">
+      我见过比你长得好看的，比你身材好的，比你性格好的，但那些都不是你，你懂我在说什么吗，我喜欢你是是因为你是你，每个人最开始的喜欢都是见色起意，但爱上并非心血来潮吸引的开始是颜值和外表，但打动人心的是性格和思想，想拥你入睡时内心的冲动，深思熟虑之后，更想拥有的是每天早上醒来的你  
+      </p></div></div> <div class="yulu_box"><div class="yulu_left"><p class="yulu_pdiv">
+      折戟沉沙铁未消，自将磨洗认前朝。<br>
+      一支深埋在泥沙里的断戟，虽然历时久远，但并未完全锈蚀。我把它拣起来磨洗干净，还能认出是三国赤壁之战的遗物。如果不是东风帮助周瑜获得火烧曹军的胜利，恐怕吴国的国色大乔、小乔就要被幽禁在曹操的铜雀台上了。<br></p></div> <div class="yulu_center"><span>2023-10-15 · 10:45</span></div> <div class="yulu_right"></div></div> <div class="yulu_box"><div class="yulu_left"></div> <div class="yulu_center"><span>2023-8-22 · 13:43</span></div> <div class="yulu_right"><p class="yulu_pdiv">
+      贵易交，富易妻<br>
+      贵易交，富易妻，俗语，易：更换。指人有权有势了，就会抛弃患难时的朋友，另交新贵；有钱有业了，就会抛弃穷困时的妻子，另娶新人。
+      </p></div></div> <div class="yulu_box"><div class="yulu_left"><p class="yulu_pdiv"><a href="/pages/51ceb1/">情如剪剪风，亦有香盈袖</a></p></div> <div class="yulu_center"><span>2023-9-24 · 23:00</span></div> <div class="yulu_right"></div></div> <div class="yulu_box"><div class="yulu_left"></div> <div class="yulu_center"><span>2023-9-20 · 15:45</span></div> <div class="yulu_right"><p class="yulu_pdiv">
+      卓越的人有一大优点，那就是在不利与艰 难的遭遇中百折不挠。
+      </p></div></div> <div class="yulu_box"><div class="yulu_left"><p class="yulu_pdiv">
+      日月逾迈，人生几何
+      </p></div> <div class="yulu_center"><span>2023-9-20 · 15:40</span></div> <div class="yulu_right"></div></div> <div class="yulu_box"><div class="yulu_left"></div> <div class="yulu_center"><span>2023-9-4 · 13:08</span></div> <div class="yulu_right"><p class="yulu_pdiv">
+      席前方丈，所食不过一饱；广厦千间，夜眠不过八尺。
+      </p></div></div> <div class="yulu_box"><div class="yulu_left"><p class="yulu_pdiv">
+      高丘接云、长杨拂地、石门喷泉、白鸥飞雪……诸景  <br>
+      虽是中人之姿， 却有天然风韵 <br>
+      锣鼓喧天，钟磬齐鸣，红烛高烧，香烟缭绕 <br></p></div> <div class="yulu_center"><span>2023-8-28 · 21:09</span></div> <div class="yulu_right"></div></div> <div class="yulu_box"><div class="yulu_left"></div> <div class="yulu_center"><span>2023-8-20 · 22:57</span></div> <div class="yulu_right"><p class="yulu_pdiv">
+      处世若大梦，胡为劳其生？<br> 
+      出自唐代李白的《春日醉起言志》<br>
+      解释：人生在世如一场大梦，有什么必要苦劳终生。 <br>
+      赏析：诗人将人生比喻为一场大梦，认为世间纷繁、荣辱得失不过是过眼云烟，抒发其看透一切的旷达人生观。
+      </p></div></div> <div class="yulu_box"><div class="yulu_left"><p class="yulu_pdiv">
+      旧人不知我近况，新人不知我过往<br>
+      近况不该旧人知，过往不与新人讲； <br>
+      旧人若是诚心人，怎会不知你近况<br>
+      新人若是真心人，知你过往又如何<br></p></div> <div class="yulu_center"><span>2023-8-18 · 20:56</span></div> <div class="yulu_right"></div></div> <div class="yulu_box"><div class="yulu_left"></div> <div class="yulu_center"><span>2023-8-18 · 11:05</span></div> <div class="yulu_right"><p class="yulu_pdiv">
+      面如冠玉，唇红齿白，言谈举止，温文尔雅
+      </p></div></div> <div class="yulu_box"><div class="yulu_left"><p class="yulu_pdiv">
+      好好生活，等到合适的时间我们再相逢
+      </p></div> <div class="yulu_center"><span>2023-8-17 · 20:42</span></div> <div class="yulu_right"></div></div> <div class="yulu_box"><div class="yulu_left"></div> <div class="yulu_center"><span>2023-8-17 · 15:09</span></div> <div class="yulu_right"><p class="yulu_pdiv">
+      绿袍银带，一看而知是六品、七品<br>
+      绯袍金带，一看而知是四品、五品<br>
+      紫袍玉带，众人都赶快让路，则显然是三品以上的大员<br></p></div></div> <div class="yulu_box"><div class="yulu_left"><p class="yulu_pdiv">
+      山虽不大，
+      却是林木蓊郁，峰峦秀出，映霞吐云，曲径通幽。
+      </p></div> <div class="yulu_center"><span>2023-8-16 · 21:49</span></div> <div class="yulu_right"></div></div> <div class="yulu_box"><div class="yulu_left"></div> <div class="yulu_center"><span>2023-8-14 · 22:58</span></div> <div class="yulu_right"><p class="yulu_pdiv">
+      纵情登览，恣意行乐
+      每日里，不是登高览胜，就是临水逐春；不是东城斗鸡，就是西郊走马；不是
+      开琼筵以坐花，就是飞羽觞而醉月。品茗高谈，时吐粲花之论；当筵赋诗，
+      每多七步之章。酒酣击剑，无非逞倜傥意气；诗成作歌，总是抒风流情怀。
+      闷来时，又不免且呼五白，暂行六博，不计输赢，只图快意。
+      </p></div></div> <div class="yulu_box"><div class="yulu_left"><p class="yulu_pdiv">
+      以之养身，便当如日月之运行，草木之荣落，不为违天之事；以之为文，便当如清水芙
+      蓉，长空白云，不事雕琢之技；以之理国，便当顺民之情──民之所好好
+      之，民之所恶恶之──不兴烦苛之政。故曰‘无为而治’。
+      </p></div> <div class="yulu_center"><span>2023-8-11 · 18:56</span></div> <div class="yulu_right"></div></div> <div class="yulu_box"><div class="yulu_left"></div> <div class="yulu_center"><span>2023-8-13 · 23:08</span></div> <div class="yulu_right"><p class="yulu_pdiv">
+      细看此人风神特异，与众不同。亭亭如孤松独立，飘飘如岸柳迎风。
+      </p></div></div> <div class="yulu_box"><div class="yulu_left"><p class="yulu_pdiv">
+        二十四岁的李白，出落得一表非凡。个子虽不算高大，但却是昂首天外；
+        身躯虽不算魁伟，但却是萧洒出尘；容貌虽不算俊美，但却是神清气爽；
+        特别是两道高耸的剑眉，一对炯炯射人的虎眼，使他更显得英姿勃勃。腰
+        间佩着一柄三尺龙泉，手中牵着一匹银鞍骏马，随身跟着十八岁的丹砂，
+        挑着一副藤制的轻便书箱
+      </p></div> <div class="yulu_center"><span>2023-8-13 · 10:23</span></div> <div class="yulu_right"></div></div> <div class="yulu_box"><div class="yulu_left"></div> <div class="yulu_center"><span>2023-8-13 · 8:43</span></div> <div class="yulu_right"><p class="yulu_pdiv">
+      远处如淡墨轻染，近处如浓墨重皴
+      </p></div></div> <div class="yulu_box"><div class="yulu_left"><p class="yulu_pdiv">
+      海宴天空，万方来同
+      </p></div> <div class="yulu_center"><span>2023-8-12 · 18:56</span></div> <div class="yulu_right"></div></div> <div class="yulu_box"><div class="yulu_left"></div> <div class="yulu_center"><span>2023-8-11 · 13:43</span></div> <div class="yulu_right"><p class="yulu_pdiv">
+      ‘三十老明经，五十少进士’的话么？三十岁考上明经就算老了，五十
+      岁考上进士还算小呢！多少人负有倜傥不羁之才，都为了考进士而把自己
+      束缚起来，兢兢业业，循规蹈矩，焚膏继晷，兀兀穷年
+      </p></div></div> <div class="yulu_box"><div class="yulu_left"><p class="yulu_pdiv">
+      辅佐齐桓公九合诸侯，一匡天下的管仲；使于
+      四方，不辱君命的晏婴；运筹帷幄之中，决胜千里之外的张良；高臣隆中，
+      三顾始出，鞠躬尽瘁，死而后已的诸葛亮；隐居东山，啸傲林泉，起而安天
+      下的谢安；善设奇谋诡计，为世排难解纷，而义不受赏的鲁仲连
+      </p></div> <div class="yulu_center"><span>2023-8-11 · 10:56</span></div> <div class="yulu_right"></div></div> <div class="yulu_box"><div class="yulu_left"></div> <div class="yulu_center"><span>2023-8-10 · 13:43</span></div> <div class="yulu_right"><p class="yulu_pdiv">
+      想象之丰富，辞采之纵横，
+      竟欲凌驾扬、马而上
+      </p></div></div> <div class="yulu_box"><div class="yulu_left"><p class="yulu_pdiv">
+      每一种创痛<br>
+      其实<br>
+      都会带来一种成熟<br></p></div> <div class="yulu_center"><span>2023-8-6 · 10:56</span></div> <div class="yulu_right"></div></div> <div class="yulu_box"><div class="yulu_left"></div> <div class="yulu_center"><span>2023-8-23 · 11:11</span></div> <div class="yulu_right"><p class="yulu_pdiv">
+      你要记住，<br>
+      除了生病以外，<br>
+      你所感受到的痛苦，<br>
+      都是你的价值观带给你的，<br>
+      而非真实存在<br></p></div></div> <div class="yulu_box"><div class="yulu_left"><p class="yulu_pdiv">
+      可是我现在依然不太会转弯<br>
+      虽然孤单的人偶尔也想有个伴<br>
+      冷风又吹的时候想说<br>
+      这生活会不会有点难<br>
+      难道是因为当初有话没讲完<br>
+      堵在喉咙里却始终不敢大声喊<br>
+      算了 别哭<br>
+      可是我偏偏就是不想要转弯<br>
+      就算不开灯的房间真的有些暗<br>
+      夜色又来的时候想说<br>
+      为什么只留给我一半<br>
+      难道是因为出现的人都伪善<br>
+      擅长告别擅长躲闪擅长分两端<br>
+      算了 别哭<br></p></div> <div class="yulu_center"><span>2023-8-6 · 10:56</span></div> <div class="yulu_right"></div></div> <div class="yulu_box"><div class="yulu_left"></div> <div class="yulu_center"><span>2023-8-22 · 13:43</span></div> <div class="yulu_right"><p class="yulu_pdiv">
+      人有时候就是这样的动物，得到的不去珍惜，失去了才追悔莫及；与其说人生一直在失去，不如说一直在获取，获取失去也是一种得，
+      这不过是大部分人安慰罢了，心情总是这样空唠唠的，总是伤心的时候想有个伴，所以才有了&quot;宽恕&quot;这两个字。
+      </p></div></div> <div class="yulu_box"><div class="yulu_left"><p class="yulu_pdiv">
+      海阔天空<br>
+       在勇敢以后<br>
+      要拿执着<br>
+       将命运的锁打破<br>
+      冷漠的人<br>
+      谢谢你们曾经看轻我<br>
+      让我不低头<br> 更精彩的活<br>
+      海阔天空<br>
+       狂风暴雨以后<br>
+      转过头<br>
+       对旧心酸一笑而过<br>
+      最懂我的人<br>
+      谢谢一路默默的陪我<br>
+      让我拥有<br>
+       好故事可以说<br>
+      看未来<br> 
+      一步步来了<br></p></div> <div class="yulu_center"><span>2023-8-6 · 10:56</span></div> <div class="yulu_right"></div></div> <div class="yulu_box"><div class="yulu_left"></div> <div class="yulu_center"><span>2023-8-6 · 12:11</span></div> <div class="yulu_right"><p class="yulu_pdiv">
+        再次看到你 <br>
+        微凉晨光里<br>
+        笑得很甜蜜<br>
+        心之所动 <br>
+        就随风去了<br>
+        以爱之名 <br>
+        你还愿意吗<br></p></div></div> <div class="yulu_box"><div class="yulu_left"><p class="yulu_pdiv">
+        宽恕是一种拯救，它将每一个人都从往昔灾难的阴影里拯救
+        出来，只有这样，才能与历史和解
+      </p></div> <div class="yulu_center"><span>2023-8-6 · 10:56</span></div> <div class="yulu_right"></div></div> <div class="yulu_box"><div class="yulu_left"></div> <div class="yulu_center"><span>2023-8-22 · 13:43</span></div> <div class="yulu_right"><p class="yulu_pdiv">
+        人生在世时间非常短，如果你总是不敢做想做的事情，那么一生过去了，
+        你留下来的只有悔恨，只有懊恼。我常常说追随我心，当然追随我心必须是要在
+        负责、守信、守法的前提之下。在这个前提之下，冒一些风险也是值得的。虽然
+        经历风险的日子可能会比较艰难，但如果我不这样做，那蹉跎十年、二十年后我
+        可能会后悔终生。<br>
+                —《世界因你不同》 · 李开复。
+      </p></div></div> <div class="yulu_box"><div class="yulu_left"><p class="yulu_pdiv">
+        失去勇气就意味着丧失了面对挑战的机会，不但于事无
+        补，还可能让我终身悔恨。人生在世，我们要用勇气改变可以改变的事情，用胸
+        怀接受不能改变的事情，并用智慧分辨二者的不同。<br>
+        —《世界因你不同》 · 李开复。
+    </p></div> <div class="yulu_center"><span>2023-8-6 · 10:56</span></div> <div class="yulu_right"></div></div> <div class="yulu_box"><div class="yulu_left"></div> <div class="yulu_center"><span>2023-8-6 · 10:43</span></div> <div class="yulu_right"><p class="yulu_pdiv">
+        遇到机遇的时候，只能自己伸出手去把握。罗曼·罗兰曾经说，“如果有
+        人错过机会，多半不是机会没有到来，而是因为等待机会者没有看见机会到来，
+        而且机会过来时，没有一伸手就抓住它。”我想，如果我没有主动出击去把握潜
+        藏着的机会，很可能，我会与自己的理想失之交臂。 <br>
+         —《世界因你不同》 · 李开复
+      </p></div></div> <div class="yulu_box"><div class="yulu_left"><p class="yulu_pdiv"><a href="/pages/a4cc3f/">
+      小故事<br>
+        我有两个朋友，一个是事业单位的，一个在外打拼，两人都是同一学历 只不过一个考了一个没考...
+        </a></p></div> <div class="yulu_center"><span>2023-7-27 · 23:56</span></div> <div class="yulu_right"></div></div> <div class="yulu_box"><div class="yulu_left"></div> <div class="yulu_center"><span>2023-3-22 · 13:43</span></div> <div class="yulu_right"><p class="yulu_pdiv"><a href="/pages/2b3b30/">
+        《人间词话》三种境界<br>
+        第一境界
+        “昨夜西风凋碧树。独上高楼，望尽天涯路。”
+        出自北宋晏殊《蝶恋花·槛菊愁烟兰泣...
+      </a></p></div></div> <div class="yulu_box"><div class="yulu_left"><p class="yulu_pdiv">
+      千山同一月，万户尽皆春。<br>千江有水千江月，万里无云万里天。<br>
+这两句是境界极高的佛家偈语。<br>
+　　前一句，月如佛性，千江则如众生，江不分大小，有水即有月；人不分高低，有人便有佛性。佛性在人心，无所不在；就如月照江水，无所不映。任何一位众生，只要他有心学佛，他便会有佛性，任何一条江河，只要有了水，他就会有明月。<br>
+　　后一句，天空有云，云上是天。只要万里天空都无云，那么，万里天上便都是青天。天可看做是佛心，云则是物欲、是烦恼。烦恼、物欲尽去，则佛心本性自然显现。<br>
+    千江有水，月映其上，万里无云，一碧如洗。置身这样的场景，没有人不会陶醉其中。千江有水，自然会映出天上的月亮，不必执著于月亮之高远。想一想人的内心又何尝不如此呢？内心若有映月之物，得月又有何难？万里无云，自然会显露无垠的天空，眼前了无遮挡，视界自然宽阔，而及时清除覆盖内心的云，心域又岂止千里万里？原来，境界是修炼的，景象是心造的。念随心转，一念一天堂。心念一转，低头看看水，抬头看看天，就与绝妙的美好撞了个满怀。<br>
+    千江有水，是映月之鉴，心中有水，是月明之需。以江水为鉴，江水是奔涌不停的，所鉴必是满江的碎月。以心鉴月须求静，水静方能鉴真月。心静了，才能观照真实的自我，才能观照万物的本性，心境平静无澜，圆圆的或弯弯的月亮才会映照其中。<br>
+    万里无云，妙在及时清空自己。“空”是人生的至高境界，空杯可以盛水，空房可以住人。一空万里，真空妙有。“空”是“有”的可能和前提，“空”是“有”的最初因缘。人生如茶，空杯以对，才有品不尽的茗香，品不完的幸福和感动。“有时候，我们不得不流完所有的眼泪，好腾出地方给一颗充满微笑的心。”每听此语，总会泪涌，同时嘴角挂上浅浅的微笑。<br></p></div> <div class="yulu_center"><span>2023-7-27 · 22:28</span></div> <div class="yulu_right"></div></div> <div class="yulu_box"><div class="yulu_left"></div> <div class="yulu_center"><span>2023-3-22 · 13:43</span></div> <div class="yulu_right"><p class="yulu_pdiv">
+      世界上本没有路，走的人多了也变成了路，但这是比赛，如果你想获得第一的话，走别人走过的路虽然很稳，但并不会帮你获得成功，
+      有时候我们可能需要另辟蹊径，这样才能脱颖而出。
+      </p></div></div> <div class="yulu_box"><div class="yulu_left"><p class="yulu_pdiv">
+      我每一天的学习，都能够让我看的更远；
+      我每天的努力，都能够让我走的更远。 
+      </p></div> <div class="yulu_center"><span>2021-1-16 · 21:56</span></div> <div class="yulu_right"></div></div> <div class="yulu_box"><div class="yulu_left"></div> <div class="yulu_center"><span>2023-3-22 · 13:43</span></div> <div class="yulu_right"><p class="yulu_pdiv">
+      决定我们一生的，不是我们的能力， <br> 而是我们的选择。 <br></p></div></div> <div class="yulu_box"><div class="yulu_left"><p class="yulu_pdiv">
+      大师，一直做朋友好，还是去表白，我害怕失败了，连朋友都做不成了
+      ：当朋友可能会很长久，只要你在以后的日子里看到别人拥有她，你不后悔就好。
+      </p></div> <div class="yulu_center"><span>2021-1-16 · 21:56</span></div> <div class="yulu_right"></div></div> <div class="yulu_box"><div class="yulu_left"></div> <div class="yulu_center"><span>2023-3-22 · 13:43</span></div> <div class="yulu_right"><p class="yulu_pdiv">
+      真诚就真的比不上新鲜感吗？
+      感情中最认真的人就该被伤害吗？
+      :你已经付出真心了，该后悔的人不是你，而是不珍惜这份真心的人。
+      </p></div></div> <div class="yulu_box"><div class="yulu_left"><p class="yulu_pdiv">
+      如果念念不忘是作用在自己身上，那必有回响!
+      </p></div> <div class="yulu_center"><span>2021-1-16 · 21:56</span></div> <div class="yulu_right"></div></div> <div class="yulu_box"><div class="yulu_left"></div> <div class="yulu_center"><span>2023-3-22 · 13:43</span></div> <div class="yulu_right"><p class="yulu_pdiv">
+      大师，已读不回跟未读哪个更难受:
+      :其实都是回复了不是吗
+      </p></div></div> <div class="yulu_box"><div class="yulu_left"><p class="yulu_pdiv">
+      1、百世修来同船渡，千世修来共枕眠。<br>
+      同舟共济，这是百世修来的缘分；同床共枕，这是千世修来的姻缘。<br>
+      朋友之情，不可废也，夫妻之情，更应珍惜。<br>
+      2、善恶随人作，祸福自己招。<br>
+      好事与坏事，是人自己做的；是祸还是福，都是人自己招来的。<br>
+      弘道爱人，自求多福。<br>
+      3、妻贤夫祸少，子孝父心宽。<br>
+      家里有贤惠的妻子，丈夫烦心事就少；儿子如果知孝，父亲可以放宽心了。<br>
+      娶妻重德不重色，让父母心安即是大孝。<br>
+      点击此处，看不为人知的精彩，你懂的<br>
+      4、爽口食多偏作药，快心事过恐生殃。<br>
+      爽口的食物吃得多容易生病，高兴过了头容易遭殃。<br>
+      乐极生悲，切勿过头。<br>
+      5、责人之心责己，恕己之心恕人。<br>
+      应当拿责备别人的心来责备自己，拿宽恕自己的心去宽恕别人。<br>
+      对己严，对人宽，招来的怨恨就少了。<br>
+      6、一寸光阴一寸金，寸金难买寸光阴。<br>
+      光阴比黄金宝贵，光阴一去不复返，这是多少黄金都难以买到的。<br>
+      时不我待，君子当奋发有为。<br>
+      7、有意栽花花不发，无心插柳柳成荫。<br>
+      有意栽花花不一定开，无意插柳柳树却可能长得茂盛。<br>
+      只管诚心做事，自然有结果。<br>
+      8、流水下滩非有意，白云出岫本无心。<br>
+      流水从滩头泻下来并非有意而为，白云从山峰间飘出来也是出于自然罢了。<br>
+      为人处世，不必矫情，自然而然就好。<br>
+      9、路遥知马力，事久见人心。<br>
+      途遥远才会知道马的耐力怎么样，事情经历多了才会明了一个人心地如何。<br>
+      给自己多点时间，给别人多点时间。<br>
+      10、马行无力皆因瘦，人不风流只为贫。<br>
+      马行走无力是因为身体瘦弱，人不风流潇洒因被贫穷所困。<br>
+      合情合理的赚钱并不丢脸，不要为自己的无能找借口。<br></p></div> <div class="yulu_center"><span>2021-1-16 · 21:56</span></div> <div class="yulu_right"></div></div> <div class="yulu_box"><div class="yulu_left"></div> <div class="yulu_center"><span>2023-3-22 · 13:43</span></div> <div class="yulu_right"><p class="yulu_pdiv">
+      普通人的一生<br>
+      六岁之前：学前教育<br>
+      六岁：一年级<br>
+      十二：小升初<br>
+      十五：中考<br>
+      十八：高考<br>
+      二十二：毕业，开始工作<br>
+      二十五：奋斗三年，月薪五千，借钱首付，还贷三十年<br>
+      二十七：借钱凑彩礼，终于结良缘<br>
+      二十八：得子，攒钱准备学前早教<br>
+      三十四：孩子入学，九年义务，一年学杂五千补习一万，雪上加霜<br>
+      四十三：中考升高中，学杂费升级，一年一万，补习一年亦一万<br>
+      四十六：孩子成年，勤工俭学，不问家里要一分，己身力衰心有余<br>
+      五十：孩子毕业，开始工作，己身年衰，高龄下岗，零工碎挣，聊以厘毫<br>
+      五十三：几年攒出一点，与子付了首付，老年小区不光彩，迎娶儿媳要新房<br>
+      五十五：终于熬完三十年，又贷一笔凑彩礼<br>
+      五十六：亲孙落地蹒跚步，半个甲子一轮回<br>
+      六十五：一生劳苦终需报，碎银难补碎玉身<br>
+      七十五：独步尘寰终离世，回首往事幸无疾。芸芸碌碌何所道，一抔清白同山阿。<br>
+      《孩子，我宁愿欠你一个快乐的少年，也不愿看到你卑微的成年》<br>
+      后来有人突然奇想，就接了下去：<br>
+      《少年，我宁愿欠你一个后浪的成年，也不愿看到你悲惨的中年》<br>
+      《后生，我宁愿欠你一个体面的中年，也不愿看到你凄惨的老年》<br>
+      《先生，我宁愿欠你一个安稳的老年，也不愿看到你无助的晚年》<br>
+      《逝者，我宁愿欠你一个盛大的葬礼，也不愿看到你下一代输在起跑线上》<br>
+      所有的合起来，不就是：<br>
+      《孩子，我宁愿你从未来过，也不愿你有个悲惨的一生。》<br>
+      我做了很多角色，唯独没有做过自己<br></p></div></div> <div class="yulu_box"><div class="yulu_left"><p class="yulu_pdiv">
+      :短暂的陪伴到底是惩罚还是奖励<br>
+      :你不贪心，便是奖励<br></p></div> <div class="yulu_center"><span>2021-1-16 · 21:56</span></div> <div class="yulu_right"></div></div> <div class="yulu_box"><div class="yulu_left"></div> <div class="yulu_center"><span>2023-3-22 · 13:43</span></div> <div class="yulu_right"><p class="yulu_pdiv">
+      ——鲁迅《三闲集》<br>
+            没有更激烈的主张，他们总连平和的改革也不肯行。<br><br>
+      中国人的性情是总喜欢调和，折中的。譬如你说，这屋子太暗，须在这里开一个窗，大家一定不允许的。但如果你主张拆掉屋顶，他们就会来调和，愿意开窗了。
+      </p></div></div> <div class="yulu_box"><div class="yulu_left"><p class="yulu_pdiv">
+        啊，看到阁下的样子我眼下好像有点不知道是什么十分的，心里面又感觉到有一些神奇的那种！零零发：是不是就是想，狠狠的打几个耳光的那种啊
+      </p></div> <div class="yulu_center"><span>2021-1-16 · 21:56</span></div> <div class="yulu_right"></div></div> <div class="yulu_box"><div class="yulu_left"></div> <div class="yulu_center"><span>2023-3-22 · 13:43</span></div> <div class="yulu_right"><p class="yulu_pdiv">
+        人生就是一个大舞台，尽我们的能力演绎自己的人生；心有多大，舞台就有多大，目标追求的越大，我们的动力就越大，人生就越辉煌。      </p></div></div> <div class="yulu_box"><div class="yulu_left"><p class="yulu_pdiv">
+      山林不向四季起誓,荣枯随缘”下一句是“海洋不需对沙岸承诺，遇合尽兴。<br>
+      此句出自台湾作家简桢的作品《海誓》。“誓言用来拴骚动的心，终就拴住了虚空。山林不向四季起誓，荣枯随缘；海洋不需对沙岸承诺，遇合尽兴。连语言都应该舍弃，你我之间，只有干干净净的缄默，与存在。”
+      </p></div> <div class="yulu_center"><span>2021-1-16 · 21:56</span></div> <div class="yulu_right"></div></div> <div class="yulu_box"><div class="yulu_left"></div> <div class="yulu_center"><span>2023-3-22 · 13:43</span></div> <div class="yulu_right"><p class="yulu_pdiv">
+      {\__/}<br>
+      ( • - •)<br>
+      /つ🍑 <br>
+      桃子要不要?<br>
+      {\__/}<br>
+      ( • - •)<br>
+      /つ🍓 <br>
+      草莓要不要?<br>
+      {\__/}<br>
+      ( • - •)<br>
+      /つ🎂 <br>
+      蛋糕要不要?<br>
+      {\__/}<br>
+      ( • - •)<br>
+      /つ👩🏻 <br>
+      姑娘要不要?<br><br>
+      {\__/}<br>
+      ( • - •)<br>
+      /つ👦🏻 <br>
+      小伙儿要不要?<br><br>
+      {\__/}<br>
+      ( • - •)<br>
+      /つ🐱🐶🐹🐷 <br>
+      宠物要不要?<br><br>
+      {\__/}<br>
+      ( • - •)<br>
+      /つ🌝 <br>
+      那我呢？<br><br>
+      {\__/}<br>
+      ( • - •)<br>
+      /つ❤️ <br>
+      我的心要不要?<br><br>
+      ​{\__/}<br>
+      ( • . •)<br>
+      / &gt;❤️<br>
+      你要不要<br><br>
+      ​{\__/}<br>
+      ( • . •)<br>
+      / &gt;❤️ <br>
+      这是兔子的<br><br>
+      {\__/}<br>
+      ( • . •)<br>
+      / &gt;❤️ <br>
+      这才是我的<br><br>
+      {\__/}<br>
+      ( • - •)<br>
+      ❤️&lt; \  <br>
+      先说你喜欢我<br><br>
+      {\__/}<br>
+      (╥_╥)<br>
+      / &gt;❤️<br>
+      呐，给你叭<br><br>
+      {\__/}<br>
+      (｡í _ ì｡)<br>
+      / &gt;❤️<br>
+       保护好它哦~<br><br>
+      {\__/}<br>
+      ( • ~ •)<br>
+      / &gt;💔 ️<br>
+      输入错误，碎掉了<br><br>
+      (\_/) <br>
+      ( ·.· ) <br>
+      / ＞❤️<br>
+      i love you<br><br></p></div></div> <div class="yulu_box"><div class="yulu_left"><p class="yulu_pdiv">
+      朱元璋<br>
+      雪压枝头低，虽低不着泥。一朝红日出，依旧与天齐！
+      </p></div> <div class="yulu_center"><span>2021-1-16 · 21:56</span></div> <div class="yulu_right"></div></div> <div class="yulu_box"><div class="yulu_left"></div> <div class="yulu_center"><span>2023-3-22 · 13:43</span></div> <div class="yulu_right"><p class="yulu_pdiv">
+      为什么我的摩根烫出来像泰迪
+      </p></div></div> <div class="yulu_box"><div class="yulu_left"><p class="yulu_pdiv">
+      如果事与愿违，那一定是另有安排<br>
+      如果事与愿违，上天一定另有安排，你所承受的苦难，都会是你未来惊喜的铺垫，所有失去的，都会以另外一种方式归来，希望今年的遗憾是明年的惊喜
+      </p></div> <div class="yulu_center"><span>2023-3-22 · 13:43</span></div> <div class="yulu_right"></div></div> <div class="yulu_box"><div class="yulu_left"></div> <div class="yulu_center"><span>2023-3-22 · 13:43</span></div> <div class="yulu_right"><p class="yulu_pdiv">
+      世界兜兜转转，当你踏出第一步时，随后很多事不会按你的预期发展。但只要不忘初心，你想要的那个目标，最终会换个方式实现。
+      </p></div></div> <div class="yulu_box"><div class="yulu_left"><p class="yulu_pdiv">
+      给你打他太极拳<br>
+      𓀇𓀈𓀉𓀊𓀋𓀌𓀍𓀎𓀏𓀐𓀑𓀒𓀓𓀔𓀕𓀖𓀗𓀘𓀙𓀚𓀛𓀜𓀝𓀞𓀟𓀠𓀡𓀢𓀣𓀤𓀥𓀦𓀧𓀨𓀩𓀪𓀫𓀬𓀻𓀼𓀽𓀾𓀿𓁀𓁁𓁂𓁃𓁄𓁅𓁆𓁇𓁈𓁉𓀀𓀁𓀂𓀃𓀄𓀅𓀆𓀇𓀈𓀉𓀊𓀋𓀌𓀍𓀎𓀏𓀐𓀑𓀒𓀓𓀔𓀕𓀖𓀗𓀘𓀙𓀚𓀛𓀜𓀝𓀞𓀟𓀠𓀡𓀢𓀣𓀤𓀥𓀦𓀧𓀨𓀩𓀪𓀫𓀬𓀻𓀼𓀽𓀾𓀿𓁀𓁁𓁂𓁃𓁄𓁅𓁆𓁇𓁈𓁉𓀀𓀁𓀂𓀃𓀄𓀅𓀆𓀇𓀈𓀉𓀊𓀋𓀌𓀍𓀎𓀏𓀐𓀑𓀒𓀓𓀔𓀕𓀖𓀗𓀘𓀙𓀚𓀛𓀜𓀝𓀞𓀟𓀠𓀡𓀢𓀣𓀤𓀥𓀦𓀧𓀨𓀩𓀪𓀫𓀬𓀻𓀼𓀽𓀾𓀿𓁀𓁁𓁂𓁃𓁄𓁅𓁆𓁇𓁈𓁉𓀀𓀁𓀂𓀃𓀄𓀅𓀆𓀇𓀈𓀉𓀊𓀋𓀌𓀍𓀎𓀏𓀐𓀑𓀒𓀓𓀔𓀕𓀖𓀗𓀘𓀙𓀚𓀛𓀜𓀝𓀞𓀟𓀠𓀡𓀢𓀣𓀤𓀥𓀦𓀧𓀨𓀩𓀪𓀫𓀬𓀻𓀼𓀽𓀾𓀿𓁀𓁁𓁂𓁃𓁄𓁅𓁆𓁇𓁈𓁉𓀀𓀁𓀂𓀃𓀄𓀅𓀆𓀇𓀈𓀉𓀊𓀋𓀌𓀍𓀎𓀏𓀐𓀑𓀒𓀓𓀔𓀕𓀖𓀗𓀘𓀙𓀚𓀛𓀜𓀝𓀞𓀟𓀠𓀡𓀢𓀣𓀤𓀥𓀦𓀧𓀨𓀩𓀪𓀫𓀬𓀻𓀼𓀽𓀾𓀿𓁀𓁁𓁂𓁃𓁄𓁅𓁆𓁇𓁈𓁉𓀀𓀁𓀂𓀃𓀄𓀅𓀆𓀇𓀈𓀉𓀊𓀋𓀌𓀍𓀎𓀏𓀐𓀑𓀒𓀓𓀔𓀕𓀖𓀗𓀘𓀙𓀚𓀛𓀜𓀝𓀞𓀟𓀠𓀡𓀢𓀣𓀤𓀥𓀦𓀧𓀨𓀩𓀪𓀫𓀬𓀻𓀼𓀽𓀾𓀿𓁀𓁁𓁂𓁃𓁄𓁅𓁆𓁇𓁈𓁉𓀀𓀁𓀂𓀃𓀄𓀅𓀆𓀇𓀈𓀉𓀊𓀋𓀌𓀍𓀎𓀏𓀐𓀑𓀒𓀓𓀔𓀕𓀖𓀗𓀘𓀙𓀚𓀛𓀜𓀝𓀞𓀟𓀠𓀡𓀢𓀣𓀤𓀥𓀦𓀧𓀨𓀩𓀪𓀫𓀬𓀻𓀼𓀽𓀾𓀿𓁀𓁁𓁂𓁃𓁄𓁅𓁆𓁇𓁈𓁉𓀀𓀁𓀂𓀃𓀄𓀅𓀆𓀇𓀈𓀉𓀊𓀋𓀌𓀍𓀎𓀏𓀐𓀑𓀒𓀓𓀔𓀕𓀖𓀗𓀘𓀙𓀚𓀛𓀜𓀝𓀞𓀟𓀠𓀡𓀢𓀣𓀤𓀥𓀦𓀧𓀨𓀩𓀪𓀫𓀬𓀻𓀼𓀽𓀾𓀿𓁀𓁁𓁂𓁃𓁄𓁅𓁆𓁇𓁈𓁉𓀇𓀈𓀉𓀊𓀋𓀌𓀍𓀎𓀏𓀐𓀑𓀒𓀓𓀔𓀕𓀖𓀗𓀘𓀙𓀚𓀛𓀜𓀝𓀞𓀟𓀠𓀡𓀢𓀣𓀤𓀥𓀦𓀧𓀨𓀩𓀪𓀫𓀬𓀻𓀼𓀽𓀾𓀿𓁀𓁁𓁂𓁃𓁄𓁅𓁆𓁇𓁈𓁉𓀀𓀁𓀂𓀃𓀄𓀅𓀆𓀇𓀈𓀉𓀊𓀋𓀌𓀍𓀎𓀏𓀐𓀑𓀒𓀓𓀔𓀕𓀖𓀗𓀘𓀙𓀚𓀛𓀜𓀝𓀞𓀟𓀠𓀡𓀢𓀣𓀤𓀥𓀦𓀧𓀨𓀩𓀪𓀫𓀬𓀻𓀼𓀽𓀾𓀿𓁀𓁁𓁂𓁃𓁄𓁅𓁆𓁇𓁈𓁉𓀀𓀁𓀂𓀃𓀄𓀅𓀆𓀇𓀈𓀉𓀊𓀋𓀌𓀍𓀎𓀏𓀐𓀑𓀒𓀓𓀔𓀕𓀖𓀗𓀘𓀙𓀚𓀛𓀜𓀝𓀞𓀟𓀠𓀡𓀢𓀣𓀤𓀥𓀦𓀧𓀨𓀩𓀪𓀫𓀬𓀻𓀼𓀽𓀾𓀿𓁀𓁁𓁂𓁃𓁄𓁅𓁆𓁇𓁈𓁉𓀀𓀁𓀂𓀃𓀄𓀅𓀆𓀇𓀈𓀉𓀊𓀋𓀌𓀍𓀎𓀏𓀐𓀑𓀒𓀓𓀔𓀕𓀖𓀗𓀘𓀙𓀚𓀛𓀜𓀝𓀞𓀟𓀠𓀡𓀢𓀣𓀤𓀥𓀦𓀧𓀨𓀩𓀪𓀫𓀬𓀻𓀼𓀽𓀾𓀿𓁀𓁁𓁂𓁃𓁄𓁅𓁆𓁇𓁈𓁉𓀀𓀁𓀂𓀃𓀄𓀅𓀆𓀇𓀈𓀉𓀊𓀋𓀌𓀍𓀎𓀏𓀐𓀑𓀒𓀓𓀔𓀕𓀖𓀗𓀘𓀙𓀚𓀛𓀜𓀝𓀞𓀟𓀠𓀡𓀢𓀣𓀤𓀥𓀦𓀧𓀨𓀩𓀪𓀫𓀬𓀻𓀼𓀽𓀾𓀿𓁀𓁁𓁂𓁃𓁄𓁅𓁆𓁇𓁈𓁉𓀀𓀁𓀂𓀃𓀄𓀅𓀆𓀇𓀈𓀉𓀊𓀋𓀌𓀍𓀎𓀏𓀐𓀑𓀒𓀓𓀔𓀕𓀖𓀗𓀘𓀙𓀚𓀛𓀜𓀝𓀞𓀟𓀠𓀡𓀢𓀣𓀤𓀥𓀦𓀧𓀨𓀩𓀪𓀫𓀬𓀻𓀼𓀽𓀾𓀿𓁀𓁁𓁂𓁃𓁄𓁅𓁆𓁇𓁈𓁉𓀀𓀁𓀂𓀃𓀄𓀅𓀆𓀇𓀈𓀉𓀊𓀋𓀌𓀍𓀎𓀏𓀐𓀑𓀒𓀓𓀔𓀕𓀖𓀗𓀘𓀙𓀚𓀛𓀜𓀝𓀞𓀟𓀠𓀡𓀢𓀣𓀤𓀥𓀦𓀧𓀨𓀩𓀪𓀫𓀬𓀻𓀼𓀽𓀾𓀿𓁀𓁁𓁂𓁃𓁄𓁅𓁆𓁇𓁈𓁉𓀀𓀁𓀂𓀃𓀄𓀅𓀆𓀇𓀈𓀉𓀊𓀋𓀌𓀍𓀎𓀏𓀐𓀑𓀒𓀓𓀔𓀕𓀖𓀗𓀘𓀙𓀚𓀛𓀜𓀝𓀞𓀟𓀠𓀡𓀢𓀣𓀤𓀥𓀦𓀧𓀨𓀩𓀪𓀫𓀬𓀻𓀼𓀽𓀾𓀿𓁀𓁁𓁂𓁃𓁄𓁅𓁆𓁇𓁈𓁉𓀇𓀈𓀉𓀊𓀋𓀌𓀍𓀎𓀏𓀐𓀑𓀒𓀓𓀔𓀕𓀖𓀗𓀘𓀙𓀚𓀛𓀜𓀝𓀞𓀟𓀠𓀡𓀢𓀣𓀤𓀥𓀦𓀧𓀨𓀩𓀪𓀫𓀬𓀻𓀼𓀽𓀾𓀿𓁀𓁁𓁂𓁃𓁄𓁅𓁆𓁇𓁈𓁉𓀀𓀁𓀂𓀃𓀄𓀅𓀆𓀇𓀈𓀉𓀊𓀋𓀌𓀍𓀎𓀏𓀐𓀑𓀒𓀓𓀔𓀕𓀖𓀗𓀘
+      </p></div> <div class="yulu_center"><span>2023-3-22 · 13:43</span></div> <div class="yulu_right"></div></div> <div class="yulu_box"><div class="yulu_left"></div> <div class="yulu_center"><span>2023-3-22 · 13:43</span></div> <div class="yulu_right"><p class="yulu_pdiv">
+      原来看到一个小说，我原来那么努力的追求你，你没有同意，后来我遇到了和我以前一样努力追求我的人，所以即使你现在回来找我，我也不可能再选择你，即便我还爱着你。因为从她的身上看到了我的影子我明白那种爱而不得的感受，所以我不能辜负她。愿所有真情都不被辜负。
+      </p></div></div> <div class="yulu_box"><div class="yulu_left"><p class="yulu_pdiv">
+      真正爱一个人的感觉就是 别人再好都与我无关，你再不好我都喜欢，承蒙你的出现，够我喜欢一辈子
+      </p></div> <div class="yulu_center"><span>2023-3-22 · 13:43</span></div> <div class="yulu_right"></div></div> <div class="yulu_box"><div class="yulu_left"></div> <div class="yulu_center"><span>2023-3-22 · 13:43</span></div> <div class="yulu_right"><p class="yulu_pdiv">
+      世人慌慌张张，不过是图碎银几两，偏偏这碎银几两，能解世间惆怅，可让父母安康，可护幼子成长，但这碎银几两，也断了儿时念想，让少年染上沧桑，压弯了脊梁，让世人愁断肠，偏是这碎银几两，能保老人晚年安康。
+      </p></div></div> <div class="yulu_box"><div class="yulu_left"><p class="yulu_pdiv">
+      世间万物皆苦，你明目张胆的偏爱，是我唯一的救赎。
+      </p></div> <div class="yulu_center"><span>2023-3-22 · 13:43</span></div> <div class="yulu_right"></div></div> <div class="yulu_box"><div class="yulu_left"></div> <div class="yulu_center"><span>2023-3-22 · 13:43</span></div> <div class="yulu_right"><p class="yulu_pdiv">
+      突然很喜欢惊鸿一瞥这个词，一见钟情太肤浅，日久生情太苍白，别人眉来眼去，而我只偷看你一眼。
+      </p></div></div> <div class="yulu_box"><div class="yulu_left"><p class="yulu_pdiv">
+      吾儿此次西行，当轻轻然而归，灿灿然而返。
+      </p></div> <div class="yulu_center"><span>2023-3-22 · 13:43</span></div> <div class="yulu_right"></div></div> <div class="yulu_box"><div class="yulu_left"></div> <div class="yulu_center"><span>2023-3-22 · 13:43</span></div> <div class="yulu_right"><p class="yulu_pdiv">
+      我目光所及都是你，也无数次的梦想和你游走天涯，亦或是归于田园，承欢儿女绕膝之乐；也许命运使然，你我始终前世无缘，今世无果，当年华流梦，韶华不再，唯有刻心爱恋化茧成蝶，感谢你在我那段青涩的岁月里出现。
+      </p></div></div> <div class="yulu_box"><div class="yulu_left"><p class="yulu_pdiv">
+      一念成执忆不休，怎奈痴心尽成愁，望尽天涯路，知音无处寻！唯叹天下万般苦，谁知痴心最无情。西风不过东南巷，从此天涯无故人！
+      </p></div> <div class="yulu_center"><span>2023-3-22 · 13:43</span></div> <div class="yulu_right"></div></div> <div class="yulu_box"><div class="yulu_left"></div> <div class="yulu_center"><span>2023-3-22 · 13:43</span></div> <div class="yulu_right"><p class="yulu_pdiv">
+      小时候，我们词不达意；长大后，我们言不由衷。
+      </p></div></div> <div class="yulu_box"><div class="yulu_left"><p class="yulu_pdiv">
+      究竟是什么样的终点，才配得上这一路的颠沛流离。
+      </p></div> <div class="yulu_center"><span>2023-3-22 · 13:43</span></div> <div class="yulu_right"></div></div> <div class="yulu_box"><div class="yulu_left"></div> <div class="yulu_center"><span>2023-3-22 · 13:43</span></div> <div class="yulu_right"><p class="yulu_pdiv">
+      纵然万劫不复，纵然相思入骨，我也待你眉眼如初，岁月如故。
+      </p></div></div> <div class="yulu_box"><div class="yulu_left"><p class="yulu_pdiv">
+      星河滚烫，你是人间理想；皓月清凉，你是人间曙光；人海冷漠，你是人间炽热；万世浮沉，你是人间归途；众人平庸，你是人间星光；世事无常，你是人间琳琅。
+      </p></div> <div class="yulu_center"><span>2023-3-22 · 13:43</span></div> <div class="yulu_right"></div></div> <div class="yulu_box"><div class="yulu_left"></div> <div class="yulu_center"><span>2023-3-22 · 13:43</span></div> <div class="yulu_right"><p class="yulu_pdiv">
+      想送你一束满天星，是不会枯萎的那种，满天星的花语是满满的爱，可惜这种干花不能见水，不能被太阳直射，就像我在你身边少个理由，想要关心你，却缺了个身份。
+      </p></div></div> <div class="yulu_box"><div class="yulu_left"><p class="yulu_pdiv">
+      我见过春日夏风，秋叶冬雪，也踏遍南水北山，东麓西岭，可这四季春秋，沧山泱水，都不及你冲我展眉一笑。
+      </p></div> <div class="yulu_center"><span>2023-3-22 · 13:43</span></div> <div class="yulu_right"></div></div> <div class="yulu_box"><div class="yulu_left"></div> <div class="yulu_center"><span>2023-3-22 · 13:53</span></div> <div class="yulu_right"><p class="yulu_pdiv">
+      靠着车窗，会觉得什么句子带上“回家”两个字都会特别温暖：带你回家，我们回家，等你回家，马上回家，跟我回家......
+      </p></div></div> <div class="yulu_box"><div class="yulu_left"><p class="yulu_pdiv">
+      人们总喜欢把解决不了的问题都归咎于时间，比如我们都很好，只是时间不凑巧。
+      </p></div> <div class="yulu_center"><span>2023-3-22 · 13:43</span></div> <div class="yulu_right"></div></div> <div class="yulu_box"><div class="yulu_left"></div> <div class="yulu_center"><span>2023-3-22 · 13:43</span></div> <div class="yulu_right"><p class="yulu_pdiv">
+      如果把童年再放映一遍，我们一定会先大笑，然后放声痛哭，最后挂着泪，微笑着睡去......
+      </p></div></div> <div class="yulu_box"><div class="yulu_left"><p class="yulu_pdiv">
+      有人给你买糖，那你怎会去抽烟？有人给你买奶茶，那你怎么会去喝酒？说白了你就是一个没人疼的过期小孩。<br><br>
+      渴望疼爱，所以你装作懂事；装作懂事，所以没人疼爱。<br><br>
+      希望是火，失望是烟，生活就是一边点火一边冒烟。<br><br>
+      何止是野心啊，我预谋了一生的爱情，从遇见你开始，就不见黄土不死心。<br><br>
+      爷爷今年72，他有一个小野心，想要活到我上大学，他还有个大野心，想要活到我结婚。<br><br></p></div> <div class="yulu_center"><span>2023-3-22 · 13:43</span></div> <div class="yulu_right"></div></div> <div class="yulu_box"><div class="yulu_left"></div> <div class="yulu_center"><span>2023-3-22 · 13:43</span></div> <div class="yulu_right"><p class="yulu_pdiv">
+      人生最好的三个词：久别重逢，失而复得，虚惊一场。但却没有和好如初，只因和好容易，如初太难。
+      </p></div></div> <div class="yulu_box"><div class="yulu_left"><p class="yulu_pdiv">
+      何为欢喜？恋爱结婚相思许。可否具体？十里红妆花嫁娶。可否再具体？余生有你。
+      </p></div> <div class="yulu_center"><span>2023-3-22 · 13:43</span></div> <div class="yulu_right"></div></div> <div class="yulu_box"><div class="yulu_left"></div> <div class="yulu_center"><span>2023-3-22 · 13:43</span></div> <div class="yulu_right"><p class="yulu_pdiv">
+      生意兴隆通四海；财源茂盛达三江。 讲的都是对生意的财富的祝福，所以横批也可以用类似的祝福语来作，如 恭喜发财、大展宏图、蒸蒸日上、吉星高照。
+      </p></div></div> <div class="yulu_box"><div class="yulu_left"><p class="yulu_pdiv">
+        最近听到一句三观超正的话：你可以因为现任不好而分手，但千万不要认为别人更好，永远有人更好，眼下便是最好。
+      </p></div> <div class="yulu_center"><span>2023-3-22 · 13:43</span></div> <div class="yulu_right"></div></div> <div class="yulu_box"><div class="yulu_left"></div> <div class="yulu_center"><span>2023-3-22 · 13:43</span></div> <div class="yulu_right"><p class="yulu_pdiv">
+      人呐，不容易。<br>
+      时也命也运也，天有不测风云，人有旦夕祸福。<br>
+      蜈蚣百足，行不及蛇,灵鸡有翼，飞不如鸦。<br>
+      马有千里之程，无人不能自往；人有凌云之志，非运不能腾达。<br>
+      文章盖世，孔子困于陈蔡；武略超群，太公垂钓于渭水。<br>
+      盗跖年幼，不是善良之辈；颜回命短，实非凶恶之徒。<br>
+      尧舜至圣，反生不肖之子；瞽叟顽呆，却生大圣之儿。<br>
+      张良原是布衣，萧何称谓县吏。<br>
+      晏子身无五尺，能做齐国首相；孔明居卧草庐，作了蜀汉军师。<br>
+      韩信手无缚鸡之力，封了汉朝大将；冯唐有安邦之志，到老半官无封；楚王虽雄，难免乌江自刎；汉王虽弱，却有万里江山。<br>
+      满腹经纶，白发不第；才疏学浅，少年登科。<br>
+      有先贫而后富，有先富而后贫。<br>
+      蛟龙未遇，潜身于鱼虾之间；君子失时，拱手于小人之下。<br>
+      天不得时，日月无光；地不得时，草木不长；水不得时，风浪不止；人不得时，利运不通。<br>
+      盖人生在世，富贵不能移，贫贱不能欺。<br>
+      此乃天地循环，终而复始者也。<br></p></div></div> <div class="yulu_box"><div class="yulu_left"><p class="yulu_pdiv">
+      当你在刻意诋毁一群人的时候，想过没有有些人生存环境的好坏并不是他们自己能决定的，人也是受限于环境的。
+      </p></div> <div class="yulu_center"><span>2023-3-22 · 13:43</span></div> <div class="yulu_right"></div></div> <div class="yulu_box"><div class="yulu_left"></div> <div class="yulu_center"><span>2023-3-22 · 13:43</span></div> <div class="yulu_right"><p class="yulu_pdiv">
+        今年过年我打算走复古风，穿去年的衣服
+      </p></div></div> <div class="yulu_box"><div class="yulu_left"><p class="yulu_pdiv">
+      我偷偷的告诉你们，千万不要喜欢他，思思家很穷，我跟他表白，她说门都没有
+      </p></div> <div class="yulu_center"><span>2023-3-22 · 13:43</span></div> <div class="yulu_right"></div></div> <div class="yulu_box"><div class="yulu_left"></div> <div class="yulu_center"><span>2023-3-22 · 13:43</span></div> <div class="yulu_right"><p class="yulu_pdiv">
+      莫言——《晚熟的人》<br>
+      “本性善良的人都晚熟，并且他们是被劣人所催熟的，当别人聪明伶俐时，他们又傻又呆，当别人权衡利弊时，他们一片赤诚，当别人心机用尽，他们灵魂开窍，后来虽然开窍了，但内心还会保持善良与赤诚，他们不断的寻找同类，但最后变成了孤独的那一个”<br></p></div></div> <div class="yulu_box"><div class="yulu_left"><p class="yulu_pdiv">
+      我有两个朋友，一个是事业单位的，一个在外打拼，两人同一学历 只不过一个考了一个没考，一开始一个人喜欢安稳，考了公考，过了，也是在本地，离家近，但是工资低，一开始他觉得这是他想要的生活。<br>
+      另一个，想要大富大贵，刚毕业没多久就开始拼搏奋斗，天南海北去找工作，北上广深都去过，见过繁华，也品味过奢侈，他在那一刻也觉得那是他想要的。<br>
+      可是时间久了，两个人开始变了，第一个人开始厌烦安稳，开始迷恋繁华与奢侈，第二个则相反，开始喜欢安稳，厌倦漂泊不定的繁华。<br>
+      第一个人想要辞职，出去打拼，但是他已经忘记了曾经的专业，没有了应届的优势，第二个开始准备考公，但是他过了那个年纪，没有了应届的优势。<br>
+      两个人都在犹豫中焦虑，连原本的生活都开始动摇，身陷囹圄，需要自己尽快做出决定，但是自己没有把握也没有决心。<br>
+      后来，两个人相遇了，诉说了，相……<br>
+      两个人的经历都是此刻彼此的纠结，在那一刻，他们彼此也明白了，这世间没有两全其美，每一个选择都指向不同的路，而且是一个很难回头的路。<br>
+      如果自己总是想着回头，可能会更好，实际上只是在一个地方徘徊。<br>
+      为什么人们总说不忘初心，方得始终，因为初心很容易被忘记，人们不得开始徘徊，迷茫。<br>
+      路上有很多迷茫的人，跟自己不一样的人。<br>
+      如何决定，更是要根据自己的情况，量力而行。<br></p></div> <div class="yulu_center"><span>2023-3-22 · 13:43</span></div> <div class="yulu_right"></div></div> <div class="yulu_box"><div class="yulu_left"></div> <div class="yulu_center"><span>2023-3-22 · 13:43</span></div> <div class="yulu_right"><p class="yulu_pdiv">
+        很多文字，只有历经风雨，饱经霜雪，<br>  
+        在午夜梦回时分，流尽泪水，<br>  
+        痛断肝肠后，方能领悟。<br></p></div></div> <div class="yulu_box"><div class="yulu_left"><p class="yulu_pdiv">
+      我们每天都要扮演着不同的角色，每天也要面对不同的人，但不管怎么说，我们都要给自己一个交代。
+      </p></div> <div class="yulu_center"><span>2023-3-22 · 13:43</span></div> <div class="yulu_right"></div></div> <div class="yulu_box"><div class="yulu_left"></div> <div class="yulu_center"><span>2023-3-21 · 17:43</span></div> <div class="yulu_right"><p class="yulu_pdiv">
+      还记得上次搂女孩的腰还是幼儿园老鹰捉小鸡的时候🌼<br>
+      如果哪一天我想环游世界了我可以围着你转一圈吗?🌼<br></p></div></div> <div class="yulu_box"><div class="yulu_left"><p class="yulu_pdiv">
+      后来她去当了央视记者，我留在了原地，北京的风终究吹不到杭州，平凡的我也配不上优秀的她，我依然叫她冰冰，她却叫我亲爱的<br>  
+      认识熟悉熟悉，然后制造联系，怎么制造呢。线下和她从少到多慢慢聊，争取线上有个话题就可以在线上聊，线上聊多了，就可以争取线下小互动，借个东西，或是请喝水啊，吃个糖果啊，小的东西不容易被拒绝。<br>  
+      1.不要着急，但是要有态度，要表达出，我喜欢和你聊天，想了解你。<br>  
+      2.等她习惯你之后，慢慢get到你的重视，她就会考虑怎么对待你，这时候就会出现多种情况，只要你不丑，不踩她的厌恶区，那就会考虑下你。<br>  
+      3.当她愿意给你机会的时候，就要多和她聊天，发自内心的那种，有机会可以打电话聊，她愿意电话聊就说明她不排斥你。接下来就可以多相互了解，线下见面，借书是一种古老有效的暧昧行为，或者一起玩游戏什么的。<br>  
+      4.你喜欢她的外表，但是在追她的时候，也要考虑她和你合不合适，是不是虚荣，是不是表里不一，是不是海王，是不是绿茶，两个人聊得怎么样。外貌的吸引最后还是让位于志趣相投。<br>  
+      5.喜欢是美好的，真诚的喜欢，不拉扯不强求。<br>  
+      （我大一喜欢了隔壁班一个女生，一见钟情那种，为了追她报了同一个戏剧社，也和她聊了一下，发现她不想谈恋爱，就不打扰她，还是好朋友。后来大三刚好一起上课，她找我借试卷，我发现她还是很好看，又心动了，试着追她，因为比较熟了，聊了一段时间就直接给她打电话聊天，意外地聊得很开心，一聊就大半夜，发现她有点喜欢我了，后来就表白在一起了。所以，生命里有很多缘分，出现时间很重要，成功与否不要太在意。）<br></p></div> <div class="yulu_center"><span>2023-2-10 · 06:43</span></div> <div class="yulu_right"></div></div> <div class="yulu_box"><div class="yulu_left"></div> <div class="yulu_center"><span>2023-1-5 · 19:43</span></div> <div class="yulu_right"><p class="yulu_pdiv"><a href="/pages/02ee57/">
+    四大神兽：青龙，白虎，玄武，朱雀 <br>
+    十大妖帅：白泽，计蒙，英召，飞诞，飞廉，九婴，商羊，钦原，呲铁，鬼车<br>
+    妖圣：獬豸，毕方，饕餮，穷奇，诸犍<br>
+    妖师：鲲鹏<br>
+    妖皇：东皇太一<br>
+    天帝：帝俊<br>
+    十大神器：东皇钟，伏羲琴，盘古斧，神农尺，轩辕剑，女娲石，昆仑镜，崆峒印，炼妖壶，昊天塔<br>
+    十大名剑：轩辕夏禹，湛卢，赤霄，泰阿，龙泉，干将，莫邪，鱼肠，纯钧，承影<br>
+    十二祖巫：帝江，奢比尸，天吴，强良，后土，龠兹，玄冥，祝融，句芒，烛九阴，蓐收，共工<br>
+    龙生九子：囚牛，睚眦，嘲风，蒲牢，狻猊，霸下，狴犴，负屃，螭吻<br>
+    三清：玉清元始天尊，上清灵宝天尊，太清道德天尊<br>
+    八仙：吕洞宾，铁拐李，何仙姑，曹国舅，张果老，汉钟离，韩湘子，蓝采和<br>
+    龙王：东海龙王敖广，南海龙王敖钦，西海龙王敖闰，北海龙王敖顺<br>
+    阴曹地府：<br>
+    天齐仁圣大帝，掌管万物生灵<br>
+    北阴酆都大帝，掌管地狱<br>
+    五方鬼帝：东方鬼帝蔡郁垒，神荼，治桃止山鬼门关<br>
+    西方鬼帝赵文和，王真人，治嶓冢山<br>
+    北方鬼帝张衡，杨云，治罗酆山<br>
+    南方鬼帝杜子仁，治罗浮山<br>
+    中央鬼帝周乞，稽康，治抱犊山<br>
+    十殿阎罗：秦广王蒋，掌管人间的长寿与夭折，出生与死亡的册籍，阴间受刑及来生吉凶。<br>
+    楚江王历，掌管等活大地狱。<br>
+    宋帝王余：掌管黑绳大地狱。<br>
+    五官王吕：掌管众合大地狱。<br>
+    阎罗王包：（包拯）掌管号叫大地狱。<br>
+    卞城王毕：掌管大叫唤大地狱。<br>
+    泰山王董：掌管焦热大地狱。<br>
+    都市王黄：掌管大热恼大地狱。<br>
+    平等王陆：掌管阿鼻大地狱。<br>
+    转轮王薛：掌管投胎六道(天道，人道，帝道，阿修罗道，地狱道，畜生道)<br>
+    四大判官：阴律司崔钰，赏善司魏征，罚恶司钟馗，查察司陆之道<br>
+    奈何桥孟婆<br>
+    十大鬼差：鬼王，日游神，夜游神，黑白无常，牛头，马面，豹尾，鸟嘴，鱼鳃，黄蜂<br>
+    山海经十大神兽：饕餮，毕方，犼，重明鸟，獬豸，梼杌，麒麟，凤凰，夔，白泽<br>
+    五大神尸：刑天、窫窳、王亥、夏耕、诸比<br>
+    二十四小鬼：魑魅魍魉鬽魁魃魈鬾鬿魀魆魊魋魌魉魐魒魓魕魖魆魋魖<br></a></p></div></div> <div class="yulu_box"><div class="yulu_left"><p class="yulu_pdiv">
+  遇到别人酒驾把你车撞了的教科书式操作：1，全程录音。2，绝口不提钱的事。3，要求依法走流程报警。4，让对方自己开口说赔你多少钱。5，如果赔钱的金额你不满意请重申要求依法走流程报警直到你满意为止。6，心别太黑。7、可以出具收款用途，例如:某车在行驶途中，被某某驾驶的某车撞损，双方经协商，达成一至协议，收到某某预付修车款✘✘✘，已和解，无需警方介入 8.最后加上，时间，地点，路段，驾驶员名字及对应身份证号码，最后双方签字<br><br><br><br><br><br><br>
+  开车撞人的解决方法<br><br>
+  1:出了事故不要害怕,立刻打110和保险公司.对方伤重请直接播120,你留在现场等交警.<br><br> 
+  2:不要垫付,如果交警要扣车,你就让他扣,所有他需要的资料都给他.自己步行或者打车上下班,15个工作日你直接去交警大队要验车报告. 不给你,你就立刻即刻马上不要迟疑的到交警同一栋办公楼找到一个叫&quot;行政科&quot;的地方提出行政复议. 　　<br><br>
+  然后拿着验车报告去提车.停车场1分钱都不要给他,拿着验车报告你直接就可以拿车,如果对方不给你车,你直接打110,说有人非法扣车.<br><br> 
+  (验车和停车是不要钱的.国家有财拨专门用于这一部分.而且100%的停车场都不是交警自己的,都是外包的.他们都是和交警同穿一条裤子)<br><br> 
+  这一部分你要是担心自己的新车扣了以后被损,你就提前自己拍照,然后弄一个车衣去盖起来.<br><br> 
+  3:拿到车该上班就上班,不上班你就休息,千万不要紧张.现在你要做的事情就是不要去医院找打,也不要主动打电话调解.<br><br> 
+  你等他们联系你,或者交警通知你处理事故.任何关于医院的费用你说我没钱,请和我的保险公司联系.如果告我的话,请连我的保险公司一起告.<br><br> 
+  你连面都不用出,保险公司就请非常专业的讼棍帮你打官司.最后要赔多少,完全不用自己管.<br><br> 
+  4:现在你要考虑怎么拿回自己的行驶证. 　　经过第三点,这个时候对方要嘛接受调解愿意接受交警认责比例,把发票给你,你去报销,然后签字.你拿回行驶证.<br><br> 
+  经过第三点,对方不愿意调解, 那就告.你放心大胆的开车,有人查你就说有官司在身,行驶证抵押了.时间一长,要么保险公司答应赔,要么伤者自己接受调解.<br><br> 
+  法院一判下来,你就可以直接拿判决书去找交警,约对方一起去,签字拿回东西.对方不去,你直接找交警,时间长了不给你行驶证你就去行政科闹一下.<br><br> 
+  5:修车部分很简单,该修的地方.保险勘探现场的时候会有一张现场单,你拿去4S,其他他们会搞定.<br><br> 
+  6:营养部分,误工部分,你不要私下答应,当地有一份很完整的赔偿标准,对方拿出所有的发票和证明后交警开具调解书,你拿去保险公司都能报. 　　<br><br>
+  三不一没有原则 ：不垫付、 不探望 、不调解，没有钱。<br><br></p></div> <div class="yulu_center"><span>2022-11-5 · 19:43</span></div> <div class="yulu_right"></div></div> <div class="yulu_box"><div class="yulu_left"></div> <div class="yulu_center"><span>2022-8-5 · 09:43</span></div> <div class="yulu_right"><p class="yulu_pdiv">
+    远处落幕的天光<br>
+    将风轻轻的熏染淡淡昏黄<br>
+    几片落下的红叶<br>
+    在你身旁飞扬<br>
+    想要碰一碰你的脸庞<br>
+    居然动作有几分仓皇<br>
+    只好将你的笑<br>
+    静静留在我心上<br>
+    就在昨天的时候<br>
+    我陪你在风中看慢慢秋黄<br>
+    你说你会陪着我看遍四季纷繁<br>
+    可今天的风依然还在<br>
+    只是吹出的却是忧伤<br>
+    只剩下这红叶<br>
+    在漫天地幽扬<br>
+    还在幽扬<br>
+    在你转身离开的 时候<br>
+    是否也会泪湿了 眼眸<br>
+    我问这漫天红叶<br>
+    红叶却不开口<br>
+    你赠我的风月和酒<br>
+    我提着那酒再上高楼啊~<br>
+    枫叶楼 枫叶楼 你可知道忧愁？<br>
+    从来杯中醉的是人<br>
+    心不醉的是酒<br>
+    那一幕幕交织画面<br>
+    又涌上心头耳边<br>
+    仿佛又有你的声音<br>
+    是你在招手<br>
+    回头却是秋水流 啊～秋水流 不回头<br></p></div></div> <div class="yulu_box"><div class="yulu_left"><p class="yulu_pdiv">
+  最惨的，并不是莫名其妙的被人给领上了一条迷路，而是当你背上孤独拿上剑，决定要马不停蹄，一意孤行的时候，突然冒出一个人，把你抱紧，说，少年，我想和你分享这漫长的一生,你一激动，把剑扔了，把马烤了，一回头，人没了。
+  </p></div> <div class="yulu_center"><span>2021-3-5 · 17:43</span></div> <div class="yulu_right"></div></div> <div class="yulu_box"><div class="yulu_left"></div> <div class="yulu_center"><span>2020-6-5 · 17:43</span></div> <div class="yulu_right"><p class="yulu_pdiv">
+    我走过山时，山不说话，<br>
+    我路过海时，海不回答，<br>
+    小毛驴滴滴答答，倚天剑伴我走天涯。<br>
+    大家都说我因为爱着杨过大侠，<br>
+    才在峨嵋山上出了家，<br>
+    其实我只是爱上了峨嵋山上的云和霞，<br>
+    像极了十六岁那年的烟花。<br></p></div></div> <div class="yulu_box"><div class="yulu_left"><p class="yulu_pdiv">
+    我想你会嫁给一个朝九晚五的男士，在平淡的日子里，把洗碗的叮叮当当当民谣，哼着最喜欢的歌拉着宝宝到处跑，还不忘冲着那个发福的男人笑一笑。祝你幸福。
+    </p></div> <div class="yulu_center"><span>2019-8-5 · 17:43</span></div> <div class="yulu_right"></div></div> <div class="yulu_box"><div class="yulu_left"></div> <div class="yulu_center"><span>2019-7-15 · 17:43</span></div> <div class="yulu_right"><p class="yulu_pdiv">
+    这些年 不是想像那么轻松，<br>
+    没成功 并不代表我会认怂。<br></p></div></div> <div class="yulu_box"><div class="yulu_left"><p class="yulu_pdiv">
+    真正爱一个人的感觉就是 别人再好都与我无关，你再不好我都喜欢，承蒙你的出现，够我喜欢一辈子
+    </p></div> <div class="yulu_center"><span>2019-6-5 · 17:43</span></div> <div class="yulu_right"></div></div> <div class="yulu_box"><div class="yulu_left"></div> <div class="yulu_center"><span>2019-5-26 · 17:43</span></div> <div class="yulu_right"><p class="yulu_pdiv">
+   陆远：很多人说爱情是一瞬间的，但是他们错了，爱情一旦发生，就永远不会消失。<br>
+   但是你要明白，相爱的人不一定就要在一起的，相濡以沫不如“相望”于江湖，是望着你，不是忘记你，我会用我的余生望着你，祝福你。<br>
+   答应我你要好好地，答应我…… ——《好先生》<br></p></div></div> <div class="yulu_box"><div class="yulu_left"><p class="yulu_pdiv">
+    找吧！也有其它好看的符号<br>
+    ❂ ❀ ✿ ✻ ❃ ʚɞ ♚ Δ ♞ ♟ Ḁ ↣ ♤ ♧ ▣ ♡ ₰ ♢ ♪ ♬ ✤ ✲ ℳ ✺ ✼ ✧ ❥ ❈ ✬ ✭ ✮ ❦ ❧ ✁✃ ღ ☏ ✚ ➹ ‿҉ ۞ ✇ ↬ ↶↷ ✪  ♕ ✢ ✣ ✤ ✥ Å ☻ ↺↻ ๑  ✹ ✸ ✷ ♘ ♖ ♜ ♗ ❁  ﻬ ☼ ➣ ✾                                  ♔　♕　♖　♚　♛　♜　☼　❅　❆　★　☆　✦　✪　✫　✿　❀　❁　ღ　✘　ㄨ　♂　♀　웃　유　༄　❧　￼　✎　✑　✄☻　❂　◙　❦　♤　♡　❥　￼　❈　❊　✻   ⁂ ⁎ ⁑ ￼ ✢ ✣ ✤ ✥ ✱ ✲ ✵ ✶ ✷ ✸ ✹ ✺ ✻ ✼ ✽ ✾ ✿ ❀ ❁ ❂ ❃ ❈ ❉ ❊ ❋ℳ๓₯㎕ 🥥🥑🥝🥫🥒🥦🥔🥕🥜🥚🥞🥧🥖🥐🥩🥓🥪🥨⁎͜ږ⁛🥗ℐ[̲̅ə̲̅٨̲̅٥̲̅٦̲̅]ოἶƈհმεlʝმƈƙʂօղℕ℗℘ℙℚℛℜℝ℞℟℠Ҡℯ ℉ ℐℑ ℒ ℓt℘ℳ<br>
+    ▒ ▬ ◊ ◦ ▣ ۰• •۰ ► ◄ ▧ ▨ ◐ ◑ ☁︎<br>
+    ♧♡♂♀☜☞☏⊙◎ ☻☼▧▨ ▒ ◊◦▣▤▥ ▦▩◘ ◈◇♤✦✧✫✬✭✮￼❥♔♕♘➣➣ Δ ☼♀♁♂ ♗♖♘♙♚♛♜♝♞♟♡♢♤♧♩♪♫♬♭♮♯✁✇✆✎✐✢✣✤✥✦✧✩✪✫✬✭✮※★☆✦✧♔♕♖♗♘♙♚♛ཁག   ཤཥ  ཊཏ  ཪཬ  ༺༻ ༐  ༑  ༒  ༓   ༔<br>
+    ༂༃༄༆༇༈༉༊།༎༏༐༑༒༓༕༖༗༘༙༚༛༜༝༞༟༠༡༢༣༤༥༦༧༨༩༪༫༬༭༮༯ ༰ ༱ ༲ ༳  ཱ ི ཱི ུ ཱུ ྲྀ ཷ ླྀ ཹ ེ ཻ ོ ཽ ཾ ཿ  ྀ ཱྀ ྂ ྃ ྄ ྅ ྆ ྇ ྈ ྉ࿄ ࿅ ࿆ ࿇ ࿈  ࿊ ࿋ ࿌   ༺༒༻༺࿈༻❀༒❀༺༽༾ཊ࿈ཏ༿༼༻༺❀ൢ༒ൢ❀༺ཌ༈༒༈ད༻҉  ҉͡￼ ❁ ❂ ❀ ✿ ✻ ❃ ʚɞ ♚ Δ ♞ ♟ Ḁ ↣ ♤ ♧ ▣ ♡ ₰ ♢ ♪ ♬ ￼ ✤ ✲ ℳ ✺ ✼ ✧ ❥ ❈ ☜☞ ✬ ✭ ✮ ❦ ❧ ￼ ✁✃ ღ ☏ ✚ ➹ ‿҉ ۞ ✇ ↬ ↶↷ ✪  ♕ ✢ ✣ ✤ ✥ Å ☻ ↺↻ ๑ ￼￼ ✹ ✸ ✷ ♘ ♖ ♜ ♗ ❁ █ ゛ ไ |▍ ☜☞ ﻬ ☼ ➣ ✾ ✯ ♬特殊符号<br>
+    ıllıllı<br>
+    ☪<br>
+    ☁︎<br>
+    ☪︎⋆<br>
+    ✯<br>
+    ⛈<br>
+    𖠚ᐝ<br>
+    ㋛<br>
+    ♡̶<br>
+    ⚝<br>
+    ∅☪<br>
+    ☁︎<br>
+    ☪︎⋆<br>
+    ✯<br>
+    ⛈<br>
+    𖠚ᐝ<br>
+    ㋛<br>
+    ♡<br>
+    ⚝<br>
+    ∅𖠌<br>
+    ネф̶ イω<br>
+    ˗ˏˋ♡ˎˊ˗<br>
+    •͈⚇•͈♡̷<br>
+    ۶•͈⚇•͈♡̷<br>
+    ʕ̯•͡˔•̯᷅ʔ °゜<br>
+    ꎁ ᙏ̤̫͚<br>
+    𓃒𓃓𓃔𓃕𓃖𓃗𓃘𓃙𓃚𓃛𓃜𓃝𓃞𓃟𓃠𓃡𓃢𓃣𓃤𓃥𓃦𓃧𓃨𓃩𓃪𓃫𓃬𓃭𓃮𓃯𓃰𓃱𓃲𓃳𓃴𓃵𓃶𓃷𓃸𓃹𓃺𓃻𓃼𓃽𓃾𓃿𓄀𓄁𓄂𓄃𓄄𓄅𓄆𓄇𓄈𓄉𓄊𓄋𓄌𓄍𓄎𓄏𓄐𓄑𓄒𓄓𓄔𓄕𓄖𓄗𓄘𓄙𓄚𓄛𓄜𓄝𓄞𓄟𓄠𓄡𓄢𓄣𓄤𓄥𓄦𓄧𓄨𓄩𓄪𓄫𓄬𓄭𓄮𓄯𓄰𓄱𓄲𓄳𓄴𓄵𓄶𓄷𓄸𓄹𓄺𓄻𓄼𓄽𓄾𓄿𓅀𓅁𓅂𓅃𓅄𓅅𓅆𓅇𓅈𓅉𓅊𓅋𓅌𓅍𓅎𓅏𓅐𓅑𓅒𓅓𓅔𓅕𓅖𓅗𓅘𓅙𓅚𓅛𓅜𓅝𓅞𓅟𓅠𓅡𓅢𓅣𓅤𓅥𓅦𓅧𓅨𓅩𓅪𓅫𓅬𓅭𓅮𓅯𓅰𓅱𓅲𓅳𓅴𓅵𓅶𓅷𓅸𓅹𓅺𓅻𓅼𓅽𓅾𓅿𓆀𓆁𓆂𓆃𓆄𓆅𓆆𓆇𓆈𓆉 ㊠㊡㊢㊩㊪㊫㊬㊭㊮㊯㊰㉿囍♔♕❀҉ এ ృ ةم ʚΐɞ ʚɞ ﻬ ๑ ف ๓ ق ͜✿҉ ͜ღ҉ ℘ ೄ ζั͡ ต ԅ️ ✾ ೄ೨Ͽ҉ ✿ ೃ ✿҉͜ ✿ۣ ζั͡✿ ي ℳ ❀<br>
+    ͜҉ ҉ ҉͡ ꧁༺๑๑༻꧂ დ ✎﹏ ๑҉ ☻ ☿ ♀ ♂ 〠 ヅ ツ ㋡ 웃 유 ü ت★ ☆ ✦ ✧ ✩ ✪ ✫ ✬ ✭ ✮ ✯ ✰↚ ↛ ↜ ↝ ↞ ↟ ↠ ↡ ↢ ↣ ↤ ↥ ↦ ↧ ↨ ↫ ↬ ↭ ↮ ↯ ↰ ↱ ↲ ↳ ↴ ↶ ↷ ↸ ↹ ↺ ↻ ↼<br>
+    ↽ ↾ ↿ ⇀ ⇁ ⇂ ⇃ ⇄ ⇅ ⇆ ⇇ ⇈ ⇉ ⇊ ⇋ ⇌ ⇍ ⇎ ⇏ ⇕ ⇖ ⇗ ⇘ ⇙ ⇚ ⇛ ⇜ ⇝ ⇞ ⇟ ⇠ ⇡ ⇢ ⇣ ⇤ ⇥ ⇦ ⇧ ⇨ ⇩<br>
+    ⇪ ⌅ ⌆ ⌤ ⏎ ☇ ☈ ☊ ☋ ☌ ☍ ➔ ➘ ➙ ➚ ➛ ➜ ➝ ➞ ➟ ➠ ➢ ➣ ➤ ➥ ➦ ➧ ➨ ➩ ➪ ➫ ➬ ➭ ➮ ➯ ➱ ➲ ➳<br>
+    ♡ ☹<br>
+    ㊙ ㊘ ㊗ ㊖ ㊕ ㊔ ㊓ ㊒ ㊑ ㊐ ㊏ ㊎ ㊍ ㊌ ㊋ ㊊ ㊚ ㊛ ㊜ ㊝ ㊞ ㊟ ㊠ ㊡ ㊢ ㊣ ㊤ ㊥ ㊦ ㊧ ㊨ ㊩ ㊪ ㊫ ㊬ ㊭ ㊮ ㊯ ㊰<br>
+    ⁰¹²³⁴⁵⁶⁷⁸⁹<br>
+    ¹⁹⁹⁴ ²⁰⁰⁷<br>
+    ¹⁹⁹⁵ ²⁰⁰⁸<br>
+    ¹⁹⁹⁶ ²⁰⁰⁹<br>
+    ¹⁹⁹⁷ ²⁰¹⁰<br>
+    ¹⁹⁹⁸ ²⁰¹¹<br>
+    ¹⁹⁹⁹ ²⁰¹²<br>
+    ²⁰⁰⁰ ²⁰¹³<br>
+    ²⁰⁰¹ ²⁰¹⁴<br>
+    ²⁰⁰² ²⁰¹⁵<br>
+    ²⁰⁰³ ²⁰¹⁶<br>
+    ²⁰⁰⁴ ²⁰¹⁷<br>
+    ²⁰⁰⁵<br>
+    ²⁰⁰⁶<br>
+    ₀₁₂₃₄₅₆₇₈₉.<br>
+    ₀₁. ₀₇.<br>
+    ₀₂. ₀₈.<br>
+    ₀₃. ₀₉.<br>
+    ₀₄. ₁₀.<br>
+    ₀₅. ₁₁.<br>
+    ₀₆. ₁₂.<br>
+    ₀₁ ₀₂ ₀₃ ₀₄ ₀₅ ₀₆ ₀₇ ₀₈<br>
+    ₀₉ ₁₀ ₁₁ ₁₂ ₁₃ ₁₄ ₁₅ ₁₆ ₁₇<br>
+    ₁₈ ₁₉ ₂₀ ₂₁ ₂₂ ₂₃ ₂₄ ₂₅<br>
+    ₂₆ ₂₇ ₂₈ ₂₉ ₃₀ ₃₁<br>
+    A̶　B̶　C̶　D̶　E̶　F̶　G̶　H̶　I̶　J̶　K̶　L̶　M̶　N̶　O̶　P̶　Q̶　R̶　S̶　T̶　U̶　V̶　W̶　X̶　Y̶　Z̶<br>
+    a̶̶　b̶　c̶　d̶　e̶　f̶　g̶　h̶　i̶　j̶　k̶　l̶　m̶　n̶　o̶　p̶　q̶　r̶　s̶　t̶　u̶　v̶　w̶　x☏ 🧀🍫🍪🍗🍩🍔🍨🍳☃🍱🍕🍮☁︎💮⚝㊖ ᵕ᷄≀ ̠ᵕ᷅ 🌼<br>
+    ㍼☻☂☄ᑋᵉᑊᑊᵒ ᵕ̈ ₂₀₂₀𖠚ᐝ☹🍰＋🍓＝🎂˗ˏˋ♡ˎˊ˗⍨⃝<br>
+    ᵕ̈ ʜᵃᵖᵖᵞ ʙⁱʳᵗʰᵈᵃᵞ ♪♬☪︎⋆✯⛈㋛♡୧⍢⃝୨̶☪⚝⍢⃝∅˶⍤⃝˶..<br>
+    คค<br>
+    εïз<br>
+    ✐<br>
+    ❆❆<br>
+    ➳<br>
+    ٩۶<br>
+    ☽<br>
+    ฅ ฅ<br>
+    ଲ<br>
+    ଇଉକ<br>
+    ʚ ɞ<br>
+    ✡<br>
+    ☃<br>
+    ⚚<br>
+    ☼<br>
+    ☆<br>
+    *<br>
+    ♡̷<br>
+    ᝰ<br>
+    ઇଓ<br>
+    εïз<br>
+    ❁<br>
+    ☪<br>
+    ๓<br>
+    🥕<br>
+    ☾⋆<br>
+    ᭄<br> 
+    ✉<br>
+    𖤐<br>
+    ´◡`<br>
+    ◡̈⃝<br> 
+    ˙Ⱉ˙<br>
+    ᝰ<br>
+    ♪没有这个，但是我有麻将 ！🀪🀩🀨🀧🀥🀤🀣🀢🀚🀚🀜🀞🀞🀟🀘🀗🀖🀖🀓🀎🀎🀂🀅🀆🀁🀕🃜🃞🃞🃚🃖🃒🂽🃊🃃🂼🂸🂫🂦🂪🂦🂢♔　♕　♖　♚　♛　♜　☀　☁　☂　☃　☼　☽　☾　♨　❄　❅　❆　★　☆　✦　✪　✫　✿　❀　❁　♥　❤　ღ　☑　✔　✘　ㄨ　✖　✉　☎　♂　♀　웃　유　☣　☤　⌘　༄　☯　☭　❧　⚘　✍　✎　✑　✂　✄　☹￼<br>
+    ˙Ꙫ˙<br>
+    ˃̣̣̥᷄⌓˂̣̣̥᷅<br>
+    ʕ·͡ˑ·ཻʔ<br>
+    ฅ<br>
+    ˙ϖ˙<br>
+    ᵕ᷄≀ ̠˘᷅<br>
+    ʚ ɞ<br>
+    ฅ́˘ฅ̀<br>
+    ฅ˙Ꙫ˙ฅ<br>
+    এ ღ<br>
+    .^◡^. ᵔ.ᵔ ᵔ◡ᵔ ଲ<br>
+    •ᴗ•☪<br>
+    ☁︎<br>
+    ☪︎⋆<br>
+    ✯<br>
+    ⛈<br>
+    𖠚ᐝ<br>
+    ㋛<br>
+    ♡̶<br>
+    ⚝<br>
+    ∅☪<br>
+    ☁︎<br>
+    ☪︎⋆<br>
+    ✯<br>
+    ⛈<br>
+    𖠚ᐝ<br>
+    ㋛<br>
+    ♡̶<br>
+    ⚝<br>
+    ∅ ♪♩♭ ✫ ✬ ✭ ✮ℳ<br>
+    ♡ͥ ♡ͦ ♡ͮ ♡ͤ<br>
+    𓆡𓆝𓆟𓆜𓆞𓆝<br>
+    ☾⋆᭄<br>
+    ◕<br>
+    ☆      ⋆      ☽★      ⋆ .<br>
+    ⁰¹²³⁴⁵⁶⁷⁸⁹<br>
+    ¹⁹⁹⁴ ²⁰⁰⁷<br>
+    ¹⁹⁹⁵ ²⁰⁰⁸<br>
+    ¹⁹⁹⁶ ²⁰⁰⁹<br>
+    ¹⁹⁹⁷ ²⁰¹⁰<br>
+    ¹⁹⁹⁸ ²⁰¹¹<br>
+    ¹⁹⁹⁹ ²⁰¹²<br>
+    ²⁰⁰⁰ ²⁰¹³<br>
+    ²⁰⁰¹ ²⁰¹⁴<br>
+    ²⁰⁰² ²⁰¹⁵<br>
+    ²⁰⁰³ ²⁰¹⁶<br>
+    ²⁰⁰⁴ ²⁰¹⁷<br>
+    ²⁰⁰⁵ ²⁰¹⁸<br>
+    ²⁰⁰⁶ ²⁰¹⁹<br>
+    ₁₂₃₄₅₆₇₈₉.<br>
+    ₀₁. ₀₇.<br>
+    ₀₂. ₀₈.<br>
+    ₀₃. ₀₉.<br>
+    ₀₄. ₁₀.<br>
+    ₀₅. ₁₁.<br>
+    ₀₆. ₁₂.<br>
+    ₀₁ ₀₂ ₀₃ ₀₄ ₀₅ ₀₆ ₀₇ ₀₈<br>
+    ₀₉ ₁₀ ₁₁ ₁₂ ₁₃ ₁₄ ₁₅ ₁₆ ₁₇<br>
+    ₁₈ ₁₉ ₂₀ ₂₁ ₂₂ ₂₃ ₂₄ ₂₅<br>
+    ₂₆ ₂₇ ₂₈ ₂₉ ₃₀ ₃₁<br>
+    A̶ B̶ C̶ D̶ E̶ F̶ G̶ H̶ I̶ J̶ K̶ L̶ M̶ N̶ O̶ P̶ Q̶ R̶ S̶ T̶ U̶ V̶ W̶ X̶ Y̶ Z̶<br>
+    a̶̶ b̶ c̶ d̶ e̶ f̶ g̶ h̶ i̶ j̶ k̶ l̶<br>
+    𓄿𓅀𓅁𓅂𓅃𓅄𓅅𓅆𓅇𓅈𓅉𓅊𓅋𓅌𓅍𓅎𓅏𓅐𓅑𓅒𓅓𓅔𓅕𓅖𓅗𓅘𓅙𓅚𓅛𓅜𓅝𓅞𓅟𓅠𓅡𓅢𓅣𓅤𓅥𓅦𓅧𓅨𓅩𓅪𓅫𓅬𓅭𓅮𓅯𓅰𓅱𓅲𓅳𓅴𓅵𓅶𓅷𓅸𓅹𓅺𓅻𓅼𓅽𓅾𓅿𓆀𓆁𓆂𓆃𓆄𓆅𓆆𓆇𓆈𓆉𓆊𓆋𓆌𓆍𓆎𓆏𓆐𓆑𓆒𓆓𓆔𓆕𓆖𓆗𓆘𓆙𓆚𓆛𓆜𓆝𓆞𓆟𓆠𓆡𓆢𓆣𓆤𓆥𓆦𓆧𓆨𓆩𓆪𓆫𓆬𓆭𓆮𓆯𓆰𓆱𓆲𓆳𓆴𓆵𓆶𓆷𓆸𓆹𓆺𓆻𓆼𓆽𓆾𓆿𓇀𓇁𓇂𓇃𓇄𓇅𓇆𓇇𓇈𓇉𓇊𓇋𓇌𓇍𓇎𓇏𓇐𓇑𓇒𓇓𓇔𓇕𓇖𓇗𓇘𓇙𓇚𓇛𓇜𓇝𓇞𓇟𓇠𓇡𓇢𓇣𓇤𓇥𓇦𓇧𓇨𓇩𓇪𓇫𓇬𓇭𓇮𓇯𓇰𓇱𓇲𓇳𓇴𓇵𓇶𓇷𓇸𓇹𓇺𓇻𓇼𓇽𓇾𓇿𓈀𓈁𓈂𓈃𓈄𓈅𓈆𓈇𓈈𓈉𓈊𓈋𓈌𓈍𓈎𓈏𓈐𓈑𓈒𓈓𓈔𓈕𓈖𓈗𓉞𓉟𓊊𓊋𓊌𓊍𓊎𓊏𓊐𓊑𓊒𓊓𓊔𓊕𓊖𓊗𓊘𓊙𓊚𓊛𓊜𓊝𓊞𓊟𓊠𓊡𓊢𓊣𓊤𓊥𓊦𓊧𓊨𓊩𓊪𓊫𓊬𓊭❤❥웃유♋☮✌☏☢☠✔☑♚▲♪✈✞÷↑↓◆◇⊙■□△▽¿─│♥❣♂♀☿Ⓐ✍✉☣☤✘☒♛▼♫⌘☪≈←→◈◎☉★☆⊿※¡━┃♡ღツ☼☁❅♒✎©®™Σ✪✯☭➳卐√↖↗●◐Θ◤◥︻〖〗┄┆℃℉°✿ϟ☃☂✄¢€£∞✫★½☯✡×↙↘○◑ ⊕◣◢︼【】┅┇☽☾✚〓▂▃▄▅▆▇█▉▊▋▌▍▎▏↔↕☽☾の·▸◂▴▾┈┊①②③④⑤⑥⑦ ⑧⑨⑩ⅠⅡⅢⅣⅤⅥⅦⅧⅨⅩ㍿▓♨♛❖♓☪✙┉┋☹☺☻تヅツッシÜϡﭢ™℠℗ ©®♥❤❥❣❦❧♡۵웃유ღ♋♂♀☿☼☀☁☂☄☾☽❄☃☈⊙☉℃℉❅✺ϟ☇♤♧♡♢♠♣♥♦☜☞☝✍☚☛☟✌✽✾✿❁❃❋❀⚘☑✓✔√☐☒✗✘ㄨ✕✖✖⋆✢✣✤✥❋✦✧✩✰✪✫✬✭✮✯<br>
+    ❂✡★✱✲✳✴✵✶✷✸✹✺✻✼❄❅❆❇❈❉❊†☨✞✝☥☦☓☩☯☧☬☸✡♁✙♆。，、＇：∶；?‘’“”〝〞ˆˇ﹕︰﹔﹖﹑·¨….¸;！´？！～—ˉ｜‖＂〃｀@﹫¡¿﹏﹋﹌︴々﹟#﹩$﹠&amp;﹪%*﹡﹢﹦﹤‐￣¯―﹨ˆ˜﹍﹎+=&lt; ＿_-\ˇ~﹉﹊（）〈〉‹›﹛﹜『』〖〗［］《》〔〕{}「」<br>
+    【】︵︷︿︹︽_﹁﹃︻︶︸﹀︺︾ˉ﹂﹄︼☩☨☦✞✛✜✝✙✠✚†‡◉○◌◍◎●◐◑◒◓◔◕◖◗❂☢⊗⊙◘◙◍⅟½⅓⅕⅙⅛⅔⅖⅚⅜¾⅗⅝⅞⅘≂≃≄≅≆≇≈≉≊≋≌≍≎≏≐≑≒≓≔≕≖≗≘≙≚≛≜≝≞≟≠≡≢≣≤≥≦≧≨≩⊰⊱⋛⋚∫∬∭∮∯∰∱∲∳%℅‰‱€£Ұ₴$₰¢₤¥₳₲₪₵元₣₱฿¤₡₮₭₩ރ円₢₥₫₦zł﷼₠₧₯₨Kčर<br>
+    ♔♕♖♗♘♙♚♛♜♝♞♟囍㊣㊐㊊㊚㊛㊤㊥㊦㊧㊨㊒㊎㊍㊌㊋㊏㊞㊑㊒㊓㊔㊕㊖<br>
+    ㊗㊘㊜㊝㊟㊠㊡㊢㊩㊪㊫㊬㊭㊮㊯㊰㊙㉿ℂℍℕℙℚℝℤℬℰℯℱℊℋℎℐℒℓℳℴ℘ℛℭ℮ℌℑℜℨ♪♫♩♬♭♮♯°øⒶ☮✌☪✡☭✯✐✎✏✑✒✍✉✁✂✃✄✆✉☎☏➟➡➢➣➤➥➦➧➨➚➘➙➛➜➝➞➸♐➲➳⏎➴➵➶➷➸➹➺➻➼➽←↑→↓↔↕↖↗↘↙↚↛↜↝↞↟↠↡↢↣↤↥↦↧↨➫➬➩➪➭➮➯➱↩↪↫↬↭↮↯↰↱↲↳↴↵↶↷↸↹↺↻↼↽↾↿⇀⇁⇂⇃⇄⇅⇆⇇⇈⇉⇊⇋⇌⇍⇎⇏⇐⇑⇒⇓⇔⇕⇖⇗⇘⇙⇚⇛⇜⇝⇞⇟⇠⇡⇢⇣⇤⇥⇦⇧⇨⇩⇪➀➁➂➃➄➅➆➇➈➉➊➋➌➍➎➏➐➑➒➓ⒶⒷⒸⒹⒺⒻⒼⒽⒾⒿⓀⓁⓂⓃⓄⓅⓆⓇⓈⓉⓊⓋⓌⓍⓎⓏⓐⓑⓒⓓⓔⓕⓖⓗⓘⓙⓚⓛⓜⓝⓞⓟⓠⓡⓢⓣⓤⓥⓦⓧⓨⅠⅡⅢⅣⅤⅥⅦⅧⅨⅩⅪⅫⅬⅭⅮⅯⅰⅱⅲⅳⅴⅵⅶⅷⅸⅹⅺⅻⅼⅽⅾⅿ┌┍┎┏┐┑┒┓└┕┖┗┘┙┚┛├┝┞┟┠┡┢┣┤┥┦┧┨┩┪┫┬┭┮┯┰┱┲┳┴┵┶┷┸┹┺┻┼┽┾┿╀╁╂╃╄╅╆╇╈╉╊╋╌╍╎╏═║╒╓╔╕╖╗╘╙╚╛╜╝╞╟╠╡╢╣╤╥╦╧╨╩╪╫╬◤◥◄►▶◀◣◢▲<br>
+    特殊符号<br>
+    ıllıllı<br>
+    ☪<br>
+    ☁︎<br>
+    ☪︎⋆<br>
+    ✯<br>
+    ⛈<br>
+    𖠚ᐝ<br>
+    ㋛<br>
+    ♡̶<br>
+    ⚝<br>
+    ∅☪<br>
+    ☁︎<br>
+    ☪︎⋆<br>
+    ✯<br>
+    ⛈<br>
+    𖠚ᐝ<br>
+    ㋛<br>
+    ♡<br>
+    ⚝<br>
+    ∅𖠌<br>
+    ネф̶ イω<br>
+    ˗ˏˋ♡ˎˊ˗<br>
+    •͈⚇•͈♡̷<br>
+    ۶•͈⚇•͈♡̷<br>
+    ʕ̯•͡˔•̯᷅ʔ °゜<br>
+    ꎁ ᙏ̤̫͚<br>
+    𓃒𓃓𓃔𓃕𓃖𓃗𓃘𓃙𓃚𓃛𓃜𓃝𓃞𓃟𓃠𓃡𓃢𓃣𓃤𓃥𓃦𓃧𓃨𓃩𓃪𓃫𓃬𓃭𓃮𓃯𓃰𓃱𓃲𓃳𓃴𓃵𓃶𓃷𓃸𓃹𓃺𓃻𓃼𓃽𓃾𓃿𓄀𓄁𓄂𓄃𓄄𓄅𓄆𓄇𓄈𓄉𓄊𓄋𓄌𓄍𓄎𓄏𓄐𓄑𓄒𓄓𓄔𓄕𓄖𓄗𓄘𓄙𓄚𓄛𓄜𓄝𓄞𓄟𓄠𓄡𓄢𓄣𓄤𓄥𓄦𓄧𓄨𓄩𓄪𓄫𓄬𓄭𓄮𓄯𓄰𓄱𓄲𓄳𓄴𓄵𓄶𓄷𓄸𓄹𓄺𓄻𓄼𓄽𓄾𓄿𓅀𓅁𓅂𓅃𓅄𓅅𓅆𓅇𓅈𓅉𓅊𓅋𓅌𓅍𓅎𓅏𓅐𓅑𓅒𓅓𓅔𓅕𓅖𓅗𓅘𓅙𓅚𓅛𓅜𓅝𓅞𓅟𓅠𓅡𓅢𓅣𓅤𓅥𓅦𓅧𓅨𓅩𓅪𓅫𓅬𓅭𓅮𓅯𓅰𓅱𓅲𓅳𓅴𓅵𓅶𓅷𓅸𓅹𓅺𓅻𓅼𓅽𓅾𓅿𓆀𓆁𓆂𓆃𓆄𓆅𓆆𓆇𓆈𓆉 ㊠㊡㊢㊩㊪㊫㊬㊭㊮㊯㊰㉿囍♔♕❀҉ এ ృ ةم ʚΐɞ ʚɞ ﻬ ๑ ف ๓ ق ͜✿҉ ͜ღ҉ ℘ ೄ ζั͡ ต ԅ️ ✾ ೄ೨Ͽ҉ ✿ ೃ ✿҉͜ ✿ۣ ζั͡✿ ي ℳ ❀<br>
+    ͜҉ ҉ ҉͡ ꧁༺๑๑༻꧂ დ ✎﹏ ๑҉ ☻ ☿ ♀ ♂ 〠 ヅ ツ ㋡ 웃 유 ü ت★ ☆ ✦ ✧ ✩ ✪ ✫ ✬ ✭ ✮ ✯ ✰↚ ↛ ↜ ↝ ↞ ↟ ↠ ↡ ↢ ↣ ↤ ↥ ↦ ↧ ↨ ↫ ↬ ↭ ↮ ↯ ↰ ↱ ↲ ↳ ↴ ↶ ↷ ↸ ↹ ↺ ↻ ↼<br>
+    ↽ ↾ ↿ ⇀ ⇁ ⇂ ⇃ ⇄ ⇅ ⇆ ⇇ ⇈ ⇉ ⇊ ⇋ ⇌ ⇍ ⇎ ⇏ ⇕ ⇖ ⇗ ⇘ ⇙ ⇚ ⇛ ⇜ ⇝ ⇞ ⇟ ⇠ ⇡ ⇢ ⇣ ⇤ ⇥ ⇦ ⇧ ⇨ ⇩<br>
+    ⇪ ⌅ ⌆ ⌤ ⏎ ☇ ☈ ☊ ☋ ☌ ☍ ➔ ➘ ➙ ➚ ➛ ➜ ➝ ➞ ➟ ➠ ➢ ➣ ➤ ➥ ➦ ➧ ➨ ➩ ➪ ➫ ➬ ➭ ➮ ➯ ➱ ➲ ➳<br>
+    ♡ ☹<br>
+    ㊙ ㊘ ㊗ ㊖ ㊕ ㊔ ㊓ ㊒ ㊑ ㊐ ㊏ ㊎ ㊍ ㊌ ㊋ ㊊ ㊚ ㊛ ㊜ ㊝ ㊞ ㊟ ㊠ ㊡ ㊢ ㊣ ㊤ ㊥ ㊦ ㊧ ㊨ ㊩ ㊪ ㊫ ㊬ ㊭ ㊮ ㊯ ㊰<br>
+    ⁰¹²³⁴⁵⁶⁷⁸⁹<br>
+    ¹⁹⁹⁴ ²⁰⁰⁷<br>
+    ¹⁹⁹⁵ ²⁰⁰⁸<br>
+    ້໌<br>
+    ¹<br></p></div> <div class="yulu_center"><span>2019-5-21 · 17:43</span></div> <div class="yulu_right"></div></div></div></div></div> <!----> <div class="page-edit"><!----> <!----> <!----></div> <div class="page-nav-wapper"><div class="page-nav-centre-wrap"><!----> <a href="/pages/6e768f/" class="page-nav-centre page-nav-centre-next"><div class="tooltip">词典</div></a></div> <div class="page-nav"><p class="inner"><!----> <span class="next"><a href="/pages/6e768f/">词典</a>→
+      </span></p></div></div></div></main></div> <div class="footer"><!----> 
+  Theme by
+  <a href="https://github.com/xugaoyi/vuepress-theme-vdoing" target="_blank" title="本站主题">Vdoing</a> <!----></div> <div class="buttons"><div title="返回顶部" class="button blur go-to-top iconfont icon-fanhuidingbu" style="display:none;"></div> <div title="去评论" class="button blur go-to-comment iconfont icon-pinglun" style="display:none;"></div> <div title="主题模式" class="button blur theme-mode-but iconfont icon-zhuti"><ul class="select-box" style="display:none;"><li class="iconfont icon-zidong">
+          跟随系统
+        </li><li class="iconfont icon-rijianmoshi">
+          浅色模式
+        </li><li class="iconfont icon-yejianmoshi">
+          深色模式
+        </li><li class="iconfont icon-yuedu">
+          阅读模式
+        </li></ul></div></div> <!----> <!----> <!----></div><div class="global-ui"><!----></div></div>
+    <script src="/assets/js/app.7c753d48.js" defer></script><script src="/assets/js/2.2fd9064d.js" defer></script><script src="/assets/js/12.62cb7793.js" defer></script><script src="/assets/js/57.fb0d31ad.js" defer></script><script src="/assets/js/33.2a06cdab.js" defer></script>
+  </body>
+</html>
